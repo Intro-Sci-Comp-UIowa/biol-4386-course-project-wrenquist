@@ -27,3 +27,32 @@ The creators of STACKS recommend that before data analysis is continued, the raw
 ## Figure I want to reproduce 
 <img width="612" alt="Screen Shot 2023-02-12 at 9 44 37 PM" src="https://user-images.githubusercontent.com/125233832/218365828-d5cec20e-3c88-4b13-bceb-ffaf1356975b.png">
 
+I only want to reproduce part a of this figure. I may add other information to the graph depending on outputs from the denovo pipeline to show differences in selected loci when varying parameters. 
+
+## Materials and Methods 
+
+Materials: 
+* Illumina sequencing files via a sequencing center in a FASTA format
+* Informtion on restriction enzyme that were used for the RAD-seq library
+* An archive to store population files with information about the data set and scripts that will be run 
+* LINUX computing cluster
+
+Methods: 
+
+1. *Schinia gracilenta* caterpillars were collected off of host plant *Iva annua* and *Ambrosia artemissiifolia* all across Eastern North America from a total of 41 sites. There were 315 caterpillars collected in total. 
+2. *Schinia gracilenta* DNA was extracted using CTAB DNA extraction protocol. 
+3. The extracted DNA was used to prep sequences for restriction-site associated DNA sequencing (RAD seq). 
+4. **3RAD was used for this sequencing method and these are the data to be used for this figure.**
+5. Pre-processing required for the data are: 
+* Preparing a barcode file that lists the number of samples in the lane with barcodes and indexes 
+* Creating a population map that stores the population from where the sample was collected. 
+* Clean and demultiplex the sequencing results 
+* Check for sequencing quality 
+6. Install the latest version of Stacks.
+7. Once pre-processing and installation is complete, there are two scripts that will be run: 
+ * denovol.pl 
+ * populations
+ This is the Stacks manual that is very useful throughout this process: https://catchenlab.life.illinois.edu/stacks/
+ 8. The log output from the populations pipeline will give information to create the graph. 
+ 9. The infromation will be pooled into an excel spreadsheet and then graphed as a line chart. 
+ 
