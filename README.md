@@ -60,4 +60,5 @@ Methods:
  This is the Stacks manual that is very useful throughout this process: https://catchenlab.life.illinois.edu/stacks/
  8. The log output from the populations pipeline will give information to create the graph. 
  9. The information will be pooled into an excel spreadsheet and then graphed as a line chart. 
- 
+
+*Edited on 2/24/23*
