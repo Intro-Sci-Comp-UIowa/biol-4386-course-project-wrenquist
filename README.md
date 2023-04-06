@@ -90,12 +90,15 @@ The number of loci shared by 70% of samples stabilized around 65,000 loci for bo
 The following three line graphs show all three iterations and their respective results for the different parameter values that were tested. For all three, the M and n value is on the x axis and the number of loci shared by 70% of samples is on the y axis.
 
 Relationship between M and n parameter values for the One population iteration. This graph shows how the number of shared loci increase as M and n also increase. The number of shared loci shared by 70% of the samples plateaus around M and n = 6, as indicated by the yellow line. M and n = 8 did not produce any results due to issues with missingness in the data.
+
 ![0a Mn One population parameter test](https://user-images.githubusercontent.com/125233832/230448951-b3d63e06-d277-4e13-b3ff-c4493295c958.jpg)
 
 Relationship between M and n parameter values for the One population_site specific iteration. As values of M and n parameters increase, the number of loci shared by 70% of samples decrease. M and n = 8 was not available due to computing errors with missingness. The number of shared loci plateau around M and n = 6.
+
 ![0b Mn One population_wite specific parameter test](https://user-images.githubusercontent.com/125233832/230449064-f6cd542c-46fd-4200-bf1b-ebeb1c69c0ca.jpg)
 
 Relationship between M and n parameter values for the Site specific iteration. As M and n values decrease, the number of loci shared by 70% of the samples decreases. M and n = 6 is where the number of shared loci stabilize, or plateau.
+
 ![0c Mn Site Specific parameter test](https://user-images.githubusercontent.com/125233832/230449123-fd6b4870-772a-4666-bf5e-6d8f6b0ce19b.jpg)
 
 ## Discussion
