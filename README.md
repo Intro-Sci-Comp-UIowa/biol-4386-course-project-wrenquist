@@ -91,7 +91,7 @@ The following three line graphs show all three iterations and their respective r
 
 Relationship between M and n parameter values for the One population iteration. This graph shows how the number of shared loci increase as M and n also increase. The number of shared loci shared by 70% of the samples plateaus around M and n = 6, as indicated by the yellow line. M and n = 8 did not produce any results due to issues with missingness in the data.
 
-![0a Mn One population parameter test](https://user-images.githubusercontent.com/125233832/230448951-b3d63e06-d277-4e13-b3ff-c4493295c958.jpg)
+![0a Mn One population parameter test](![0a Mn One population parameter test](https://github.com/wrenquist/repo/biol-4386-course-project-wrenquist/0a.Mn One population parameter test.jpg)
 
 Relationship between M and n parameter values for the One population_site specific iteration. As values of M and n parameters increase, the number of loci shared by 70% of samples decrease. M and n = 8 was not available due to computing errors with missingness. The number of shared loci plateau around M and n = 6.
 
