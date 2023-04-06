@@ -35,9 +35,19 @@ There are three main steps within the STACKS pipeline and all three steps can be
 
 #### Step 3: Make catalog of loci across ALL individuals, controlled by parameter -n. Parameter -n stands for the distance allowed between catalog loci, and represents the number of nucleotide differences loci in individuals can have to be combined into a master locus. This parameter is very similar to parameter -M. What makes them different is that -M is assembling loci WITHIN each individual and -n is assembling loci across ALL individuals. 
 - If -n is set too LOW- some loci will fail to be reconstructed. SNPs will appear as two different loci fro the rest of the pipeline. 
-- If -n is set too HIGH- different loci with some sequence similarity will be lumped together into the same locus. 
+- If -n is set too HIGH- different loci with some sequence similarity will be lumped together into the same locus.  
 
 I chose parameter values by looking at the relationship between the number of loci shared by all samples across values of M and n. I generated a graph that showed how the number of shared loci changed as M and n increased. The recommended choice of a value for M and n is the smallest number at which the number of shared loci plateaus, or stabilizes (Catchen et al 2017).
+
+I tested how varying M and n parameters affected locus capture using three different combinations of population scenarios in the STACKS denovo.pl and populations.pl pipelines (Table 6). The population maps were either grouped entirely together as one population (k = 1), separated into their site-specific populations (k = 38), or combined initially and then separated into site-specific populations for populations.pl. These three iterations were chosen to test how grouping individuals differently within the denovo.pl and populations.pl affected the output number of shared loci.
+
+The three different combinations of population scenarios that I tested are shown below. This table shows the names I gave each iteration, the number of populations the data was sorted into for the denovo.pl and the number of populations the data was sorted into for populations.pl.
+![Capture](https://user-images.githubusercontent.com/125233832/230450132-ebf063fa-8b73-46f1-a0ce-9d1fe21e4cc7.JPG)
+
+
+** Understanding these parameters and testing which fit the data best are important because they: 
+1. Make sure true genetic differences are recorded. 
+2. Help throw out sequencing errors and missing data BEFORE data analysis. **
 
 ## Methods 
 ### 1. Field Collections and Sample Preparation
@@ -71,15 +81,34 @@ Within the de novo pipeline, several program options can be tuned to titer the a
 * Distance allowed between stacks = -M, used in ustacks, default value 2
 * Distance allowed between catalog loci = -n, used in cstacks, default value 1
 
-I created a line graph that showed how the number of shared loci changed as M and n increased. The parameters that are the most representative of the data set are parameters where the number of shared loci are stabilized (Catchen 2017). This value was M and n = 6 for my dataset (Figure of M/n for all iterations).
-Site specific was chosen as the finalized form of ordering samples (Section 4) because this allows loci to be filtered within each collection site. This is important as the geographic relationship between sites impacts how different loci diversity is at each site. 
+
+## Results
+I created a line graph that showed how the number of shared loci changed as M and n increased. The parameters that are the most representative of the data set are parameters where the number of shared loci are stabilized (Catchen 2017). This value was M and n = 6 for my dataset.
+
+The number of loci shared by 70% of samples stabilized around 65,000 loci for both the “One population_site specific” iteration and the “Site specific” iteration. For the third iteration, “One population”, the number of loci stabilized much lower, at around 810 loci. For all three iterations, the number of shared loci stabilized around M = 6 and n = 6 (Figure 6, 7, 8). The first two tests, “One population_site specific” and “Site specific,” are similar in the number of loci shared because they both use a site-specific grouping in populations.pl (k = 38). Grouping individuals by collection-site (k = 38) should – and does – lead to more loci in the overall dataset because populations.pl requires that a default of 80% of individuals in a group share a locus for that locus to be maintained. In contrast, the pipeline with k = 1 requires that 80% of all 275 individuals share a locus. I chose “Site specific” as the primary method for ordering samples because I did not want to discard loci representing important variation that might only be found in some regions.
+
+The following three line graphs show all three iterations and their respective results for the different parameter values that were tested. For all three, the M and n value is on the x axis and the number of loci shared by 70% of samples is on the y axis.
+
+Relationship between M and n parameter values for the One population iteration. This graph shows how the number of shared loci increase as M and n also increase. The number of shared loci shared by 70% of the samples plateaus around M and n = 6, as indicated by the yellow line. M and n = 8 did not produce any results due to issues with missingness in the data.
+![0a Mn One population parameter test](https://user-images.githubusercontent.com/125233832/230448951-b3d63e06-d277-4e13-b3ff-c4493295c958.jpg)
+
+Relationship between M and n parameter values for the One population_site specific iteration. As values of M and n parameters increase, the number of loci shared by 70% of samples decrease. M and n = 8 was not available due to computing errors with missingness. The number of shared loci plateau around M and n = 6.
+![0b Mn One population_wite specific parameter test](https://user-images.githubusercontent.com/125233832/230449064-f6cd542c-46fd-4200-bf1b-ebeb1c69c0ca.jpg)
+
+Relationship between M and n parameter values for the Site specific iteration. As M and n values decrease, the number of loci shared by 70% of the samples decreases. M and n = 6 is where the number of shared loci stabilize, or plateau.
+![0c Mn Site Specific parameter test](https://user-images.githubusercontent.com/125233832/230449123-fd6b4870-772a-4666-bf5e-6d8f6b0ce19b.jpg)
 
 ## Discussion
 
 ### Difficulties encountered 
+There were two main difficulties I encountered with the process of reproducing this parameter testing method with my MS research data: 
+- 1. I had to do a lot more digging to really understand what these parameters meant. 
+It took me a long time to be able to articulate what exactly each parameter did. I had a hard time visualizing this data. Catchen and Rochette published an explanation found here (https://catchenlab.life.illinois.edu/stacks/param_tut.php) that really helped in my understanding. 
+- 2. I found more parameters (such as -p) that could be used additionally to filter the data. 
+There is more work to be done to see if adding in -p (controls the minimum number of populations a locus must be present in to process a locus) can help filter missing data within the genomic dataset. 
 
 ### Discrepancies between my reproduction and the published result
-
+The biggest discrepancy is that because the data I used was more wide spread across 38 populations, the iterations with k = 38 saw a decrease in the number of shared loci as the M and n values increased. In the original figure and in k = 1 or "One-population" iteration, the number of shared loci increased as M and n values increased.
 
  **Currently project status: All methods are completed and the figure has been reproduced.**
 I have not have regular updates on GitHub repository, but I hope to work more on that towards increasing GitHub use. I did a lot of the analysis work in the first two weeks of the semester, and because of that, have found it more difficult to continously update the repository. 
