@@ -61,4 +61,12 @@ Within the de novo pipeline, several program options can be tuned to titer the a
 I created a line graph that showed how the number of shared loci changed as M and n increased. The parameters that are the most representative of the data set are parameters where the number of shared loci are stabilized (Catchen 2017). This value was M and n = 6 for my dataset (Figure of M/n for all iterations).
 Site specific was chosen as the finalized form of ordering samples (Section 4) because this allows loci to be filtered within each collection site. This is important as the geographic relationship between sites impacts how different loci diversity is at each site. 
 
+## Discussion
+
+### Difficulties encountered 
+
+### Discrepancies between my reproduction and the published result
+
+
  **Currently project status: All methods are completed and the figure has been reproduced.**
+I have not have regular updates on GitHub repository, but I hope to work more on that towards increasing GitHub use. I did a lot of the analysis work in the first two weeks of the semester, and because of that, have found it more difficult to continously update the repository. 
