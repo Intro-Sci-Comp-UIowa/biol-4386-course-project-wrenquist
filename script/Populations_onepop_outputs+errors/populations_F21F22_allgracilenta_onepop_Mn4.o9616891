@@ -1,0 +1,15 @@
+Logging to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn4/Stacksrun0.7/populations.log'.
+Locus/sample distributions will be written to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn4/Stacksrun0.7/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0.7
+  Locus Population limit: 1
+  Percent samples overall: 0
+  Minor allele frequency cutoff: 0
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: off
+  F-stats kernel smoothing: off
+  Bootstrap resampling: off
+
+Parsing population map...
+The population map contained 275 samples, 1 population(s), 1 group(s).

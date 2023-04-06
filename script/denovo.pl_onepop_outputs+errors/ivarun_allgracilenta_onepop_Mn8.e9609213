@@ -1,0 +1,573 @@
+Parsed population map: 275 files in 1 population and 1 group.
+Found 275 sample file(s).
+
+Indentifying unique stacks...
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/AR001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 1 -m 3 --name AR001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/AR002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 2 -m 3 --name AR002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/AR003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 3 -m 3 --name AR003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/AR004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 4 -m 3 --name AR004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/AR005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 5 -m 3 --name AR005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/AR006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 6 -m 3 --name AR006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BHB001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 7 -m 3 --name BHB001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BHB002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 8 -m 3 --name BHB002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BHB101.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 9 -m 3 --name BHB101 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BHB102.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 10 -m 3 --name BHB102 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BHB103.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 11 -m 3 --name BHB103 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BHB201.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 12 -m 3 --name BHB201 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BHB301.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 13 -m 3 --name BHB301 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BHB302.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 14 -m 3 --name BHB302 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BHB303.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 15 -m 3 --name BHB303 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BHB304.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 16 -m 3 --name BHB304 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BHB305.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 17 -m 3 --name BHB305 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BHB306.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 18 -m 3 --name BHB306 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BHB307.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 19 -m 3 --name BHB307 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BHB308.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 20 -m 3 --name BHB308 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BHB310.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 21 -m 3 --name BHB310 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BPA003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 22 -m 3 --name BPA003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BPA004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 23 -m 3 --name BPA004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BPA006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 24 -m 3 --name BPA006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BPA007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 25 -m 3 --name BPA007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BPI001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 26 -m 3 --name BPI001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BPI002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 27 -m 3 --name BPI002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BPI003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 28 -m 3 --name BPI003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BPI004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 29 -m 3 --name BPI004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BPI005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 30 -m 3 --name BPI005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BPI006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 31 -m 3 --name BPI006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BPI007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 32 -m 3 --name BPI007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BPI008.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 33 -m 3 --name BPI008 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BPI009.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 34 -m 3 --name BPI009 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/BPI010.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 35 -m 3 --name BPI010 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/CBEC001a.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 36 -m 3 --name CBEC001a -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/CMHP001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 37 -m 3 --name CMHP001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/CMHP002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 38 -m 3 --name CMHP002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/CMHP003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 39 -m 3 --name CMHP003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/CMHP004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 40 -m 3 --name CMHP004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/CMHP006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 41 -m 3 --name CMHP006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/CMHP007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 42 -m 3 --name CMHP007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/CMHP008.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 43 -m 3 --name CMHP008 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/CMHP009.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 44 -m 3 --name CMHP009 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/CMHP010.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 45 -m 3 --name CMHP010 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/ELP002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 46 -m 3 --name ELP002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/ELP003b.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 47 -m 3 --name ELP003b -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/ELP004b.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 48 -m 3 --name ELP004b -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/ELP005a.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 49 -m 3 --name ELP005a -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/ELP006b.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 50 -m 3 --name ELP006b -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/FLP002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 51 -m 3 --name FLP002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/FPL001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 52 -m 3 --name FPL001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/FPL003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 53 -m 3 --name FPL003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/FPL004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 54 -m 3 --name FPL004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/FPL005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 55 -m 3 --name FPL005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/FPL006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 56 -m 3 --name FPL006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/FPL007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 57 -m 3 --name FPL007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/FPL008.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 58 -m 3 --name FPL008 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/FPL009.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 59 -m 3 --name FPL009 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/FPL010.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 60 -m 3 --name FPL010 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/FS001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 61 -m 3 --name FS001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/FS002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 62 -m 3 --name FS002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GPNC001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 63 -m 3 --name GPNC001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GPNC002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 64 -m 3 --name GPNC002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GPNC003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 65 -m 3 --name GPNC003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GPNC004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 66 -m 3 --name GPNC004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GPNC005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 67 -m 3 --name GPNC005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GPNC006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 68 -m 3 --name GPNC006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GPNC007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 69 -m 3 --name GPNC007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GPNC008.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 70 -m 3 --name GPNC008 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GPNC009.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 71 -m 3 --name GPNC009 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GPNC010.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 72 -m 3 --name GPNC010 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 73 -m 3 --name GT004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 74 -m 3 --name GT005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 75 -m 3 --name GT006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 76 -m 3 --name GT007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT008.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 77 -m 3 --name GT008 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT009.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 78 -m 3 --name GT009 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT010.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 79 -m 3 --name GT010 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT011.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 80 -m 3 --name GT011 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT012.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 81 -m 3 --name GT012 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT013.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 82 -m 3 --name GT013 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT014.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 83 -m 3 --name GT014 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT015.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 84 -m 3 --name GT015 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT016.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 85 -m 3 --name GT016 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT017.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 86 -m 3 --name GT017 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT018.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 87 -m 3 --name GT018 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT019.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 88 -m 3 --name GT019 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT020.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 89 -m 3 --name GT020 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT021.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 90 -m 3 --name GT021 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT022.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 91 -m 3 --name GT022 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT023.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 92 -m 3 --name GT023 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT024.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 93 -m 3 --name GT024 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT025.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 94 -m 3 --name GT025 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT026.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 95 -m 3 --name GT026 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT027.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 96 -m 3 --name GT027 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT028.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 97 -m 3 --name GT028 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT029.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 98 -m 3 --name GT029 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/GT030.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 99 -m 3 --name GT030 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/HS001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 100 -m 3 --name HS001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/HT001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 101 -m 3 --name HT001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KMA001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 102 -m 3 --name KMA001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KMA002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 103 -m 3 --name KMA002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KMA003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 104 -m 3 --name KMA003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KMA004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 105 -m 3 --name KMA004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KMA005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 106 -m 3 --name KMA005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KMI001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 107 -m 3 --name KMI001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KMI002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 108 -m 3 --name KMI002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KMI003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 109 -m 3 --name KMI003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KMI004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 110 -m 3 --name KMI004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KMI005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 111 -m 3 --name KMI005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KMI006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 112 -m 3 --name KMI006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KMI007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 113 -m 3 --name KMI007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KMI008.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 114 -m 3 --name KMI008 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KMI009.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 115 -m 3 --name KMI009 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KMI010.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 116 -m 3 --name KMI010 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KUC001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 117 -m 3 --name KUC001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KUC002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 118 -m 3 --name KUC002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KUC003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 119 -m 3 --name KUC003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KUC004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 120 -m 3 --name KUC004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KUC005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 121 -m 3 --name KUC005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KUC006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 122 -m 3 --name KUC006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/KUC007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 123 -m 3 --name KUC007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/MLA001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 124 -m 3 --name MLA001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/MLA002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 125 -m 3 --name MLA002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/MLA003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 126 -m 3 --name MLA003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/MLA004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 127 -m 3 --name MLA004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/MLA005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 128 -m 3 --name MLA005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/MLA007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 129 -m 3 --name MLA007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/MLI001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 130 -m 3 --name MLI001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/MLI002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 131 -m 3 --name MLI002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/MLI003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 132 -m 3 --name MLI003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/MLI004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 133 -m 3 --name MLI004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/MLI005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 134 -m 3 --name MLI005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/OCL001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 135 -m 3 --name OCL001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/OCL002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 136 -m 3 --name OCL002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/OCL003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 137 -m 3 --name OCL003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/OCL004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 138 -m 3 --name OCL004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/OCL005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 139 -m 3 --name OCL005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/OCL006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 140 -m 3 --name OCL006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/OCL007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 141 -m 3 --name OCL007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/OCL008.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 142 -m 3 --name OCL008 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/OCL009.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 143 -m 3 --name OCL009 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/OCL010.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 144 -m 3 --name OCL010 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PBG001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 145 -m 3 --name PBG001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PBG002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 146 -m 3 --name PBG002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PBG003ab.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 147 -m 3 --name PBG003ab -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PBG005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 148 -m 3 --name PBG005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PBG006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 149 -m 3 --name PBG006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PBG007ab.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 150 -m 3 --name PBG007ab -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PBG008ab.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 151 -m 3 --name PBG008ab -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PBG009ab.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 152 -m 3 --name PBG009ab -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PBG010ab.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 153 -m 3 --name PBG010ab -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PC001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 154 -m 3 --name PC001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PC002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 155 -m 3 --name PC002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PC003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 156 -m 3 --name PC003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PC004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 157 -m 3 --name PC004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PC005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 158 -m 3 --name PC005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PC006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 159 -m 3 --name PC006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PC007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 160 -m 3 --name PC007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PC008.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 161 -m 3 --name PC008 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PC009.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 162 -m 3 --name PC009 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PC010.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 163 -m 3 --name PC010 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PLPA004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 164 -m 3 --name PLPA004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PLPA007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 165 -m 3 --name PLPA007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PLPI001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 166 -m 3 --name PLPI001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PLPI002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 167 -m 3 --name PLPI002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PLPI003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 168 -m 3 --name PLPI003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PLPI004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 169 -m 3 --name PLPI004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PLPI005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 170 -m 3 --name PLPI005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PLPI006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 171 -m 3 --name PLPI006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PLPI008.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 172 -m 3 --name PLPI008 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PLPI009.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 173 -m 3 --name PLPI009 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/PLPI010.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 174 -m 3 --name PLPI010 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RL001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 175 -m 3 --name RL001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RL002ab.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 176 -m 3 --name RL002ab -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RL003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 177 -m 3 --name RL003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RL004ab.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 178 -m 3 --name RL004ab -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RL005ab.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 179 -m 3 --name RL005ab -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RS001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 180 -m 3 --name RS001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RS002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 181 -m 3 --name RS002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RS003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 182 -m 3 --name RS003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RS004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 183 -m 3 --name RS004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RS005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 184 -m 3 --name RS005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RS007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 185 -m 3 --name RS007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RS008.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 186 -m 3 --name RS008 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RS009.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 187 -m 3 --name RS009 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RS010.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 188 -m 3 --name RS010 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RS011.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 189 -m 3 --name RS011 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RS012.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 190 -m 3 --name RS012 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RS013.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 191 -m 3 --name RS013 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RS014.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 192 -m 3 --name RS014 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RSA001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 193 -m 3 --name RSA001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RSI201.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 194 -m 3 --name RSI201 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RSI202.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 195 -m 3 --name RSI202 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RSI203.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 196 -m 3 --name RSI203 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RSI204.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 197 -m 3 --name RSI204 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RSI206.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 198 -m 3 --name RSI206 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RSI207.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 199 -m 3 --name RSI207 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RSI208.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 200 -m 3 --name RSI208 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/RSI209.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 201 -m 3 --name RSI209 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SLP001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 202 -m 3 --name SLP001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SLP002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 203 -m 3 --name SLP002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SLP003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 204 -m 3 --name SLP003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SLP004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 205 -m 3 --name SLP004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SLP005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 206 -m 3 --name SLP005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SLP006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 207 -m 3 --name SLP006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SLP007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 208 -m 3 --name SLP007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SLP008.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 209 -m 3 --name SLP008 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SLP010.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 210 -m 3 --name SLP010 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SW001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 211 -m 3 --name SW001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SW002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 212 -m 3 --name SW002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SW003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 213 -m 3 --name SW003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SW004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 214 -m 3 --name SW004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SW005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 215 -m 3 --name SW005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SW006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 216 -m 3 --name SW006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SW007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 217 -m 3 --name SW007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SW008.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 218 -m 3 --name SW008 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SW009.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 219 -m 3 --name SW009 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SW010.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 220 -m 3 --name SW010 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SWCPA001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 221 -m 3 --name SWCPA001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SWCPA002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 222 -m 3 --name SWCPA002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SWCPA003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 223 -m 3 --name SWCPA003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SWCPI001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 224 -m 3 --name SWCPI001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SWCPI002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 225 -m 3 --name SWCPI002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SWCPI003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 226 -m 3 --name SWCPI003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SWCPI004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 227 -m 3 --name SWCPI004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SWCPI005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 228 -m 3 --name SWCPI005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SWCPI006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 229 -m 3 --name SWCPI006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SWCPI007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 230 -m 3 --name SWCPI007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SWCPI008.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 231 -m 3 --name SWCPI008 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SWCPI009.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 232 -m 3 --name SWCPI009 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/SWCPI010.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 233 -m 3 --name SWCPI010 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TBD001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 234 -m 3 --name TBD001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TF002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 235 -m 3 --name TF002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TFI001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 236 -m 3 --name TFI001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TFI003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 237 -m 3 --name TFI003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TFI004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 238 -m 3 --name TFI004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TFI005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 239 -m 3 --name TFI005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TFI006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 240 -m 3 --name TFI006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TFI007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 241 -m 3 --name TFI007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TFI008.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 242 -m 3 --name TFI008 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TFI009.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 243 -m 3 --name TFI009 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TFI010.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 244 -m 3 --name TFI010 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TRC001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 245 -m 3 --name TRC001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TRC002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 246 -m 3 --name TRC002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TRC003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 247 -m 3 --name TRC003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TRC004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 248 -m 3 --name TRC004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TRC005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 249 -m 3 --name TRC005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TRC006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 250 -m 3 --name TRC006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TRC007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 251 -m 3 --name TRC007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TRC008.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 252 -m 3 --name TRC008 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TRC009.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 253 -m 3 --name TRC009 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/TRC011.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 254 -m 3 --name TRC011 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/UR001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 255 -m 3 --name UR001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/UR002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 256 -m 3 --name UR002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/UR003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 257 -m 3 --name UR003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/UR004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 258 -m 3 --name UR004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/UR005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 259 -m 3 --name UR005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/VR001.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 260 -m 3 --name VR001 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/VR002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 261 -m 3 --name VR002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/VR003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 262 -m 3 --name VR003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/VR004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 263 -m 3 --name VR004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/VR005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 264 -m 3 --name VR005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/VWMA002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 265 -m 3 --name VWMA002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/VWMI001b.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 266 -m 3 --name VWMI001b -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/VWMI002.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 267 -m 3 --name VWMI002 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/VWMI003.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 268 -m 3 --name VWMI003 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/VWMI004.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 269 -m 3 --name VWMI004 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/VWMI005.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 270 -m 3 --name VWMI005 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/VWMI006.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 271 -m 3 --name VWMI006 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/VWMI007.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 272 -m 3 --name VWMI007 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/VWMI008.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 273 -m 3 --name VWMI008 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/VWMI009.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 274 -m 3 --name VWMI009 -p 16 -M 8
+  ustacks -t gzfastq -f /Users/wrenquist/all_WR_q30_F21_F22i7i5/VWMI010.1.fq.gz -o /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -i 275 -m 3 --name VWMI010 -p 16 -M 8
+
+Depths of Coverage for Processed Samples:
+AR001; depth: 6.60x; max: 105x; number of reads: 1353 (17.4%)
+AR002; depth: 8.00x; max: 118x; number of reads: 15602 (50.7%)
+AR003; depth: 7.03x; max: 114x; number of reads: 21485 (51.4%)
+AR004; depth: 10.27x; max: 333x; number of reads: 1695 (25.5%)
+AR005; depth: 20.36x; max: 859x; number of reads: 353099 (70.7%)
+AR006; depth: 28.33x; max: 1243x; number of reads: 562578 (70.0%)
+BHB001; depth: 7.61x; max: 57x; number of reads: 4354 (53.5%)
+BHB002; depth: 47.84x; max: 1306x; number of reads: 714992 (74.5%)
+BHB101; depth: 49.19x; max: 1342x; number of reads: 118010 (43.0%)
+BHB102; depth: 43.70x; max: 882x; number of reads: 107368 (42.4%)
+BHB103; depth: 37.89x; max: 992x; number of reads: 114497 (36.3%)
+BHB201; depth: 7.83x; max: 341x; number of reads: 10252 (34.3%)
+BHB301; depth: 37.61x; max: 1108x; number of reads: 881754 (81.1%)
+BHB302; depth: 24.46x; max: 1203x; number of reads: 461432 (79.1%)
+BHB303; depth: 28.50x; max: 865x; number of reads: 247008 (72.4%)
+BHB304; depth: 9.19x; max: 192x; number of reads: 10093 (54.7%)
+BHB305; depth: 25.53x; max: 640x; number of reads: 150833 (73.9%)
+BHB306; depth: 22.20x; max: 771x; number of reads: 412203 (78.4%)
+BHB307; depth: 17.62x; max: 577x; number of reads: 254593 (77.3%)
+BHB308; depth: 16.44x; max: 614x; number of reads: 224319 (68.8%)
+BHB310; depth: 16.86x; max: 662x; number of reads: 225192 (70.7%)
+BPA003; depth: 26.14x; max: 1879x; number of reads: 519387 (80.3%)
+BPA004; depth: 39.42x; max: 4929x; number of reads: 566652 (69.0%)
+BPA006; depth: 8.93x; max: 139x; number of reads: 18346 (54.2%)
+BPA007; depth: 18.42x; max: 581x; number of reads: 275773 (71.9%)
+BPI001; depth: 9.64x; max: 303x; number of reads: 1716 (28.8%)
+BPI002; depth: 34.66x; max: 1955x; number of reads: 826951 (78.3%)
+BPI003; depth: 20.51x; max: 1144x; number of reads: 342565 (78.9%)
+BPI004; depth: 11.85x; max: 564x; number of reads: 109506 (68.7%)
+BPI005; depth: 33.92x; max: 1638x; number of reads: 321441 (77.2%)
+BPI006; depth: 45.17x; max: 2805x; number of reads: 713587 (68.4%)
+BPI007; depth: 27.41x; max: 1202x; number of reads: 553875 (70.4%)
+BPI008; depth: 33.14x; max: 1384x; number of reads: 716411 (69.3%)
+BPI009; depth: 29.14x; max: 1483x; number of reads: 620276 (67.7%)
+BPI010; depth: 36.61x; max: 1874x; number of reads: 609462 (71.6%)
+CBEC001a; depth: 39.86x; max: 2957x; number of reads: 780851 (71.4%)
+CMHP001; depth: 37.42x; max: 1580x; number of reads: 860385 (72.0%)
+CMHP002; depth: 9.80x; max: 431x; number of reads: 2842 (28.7%)
+CMHP003; depth: 7.11x; max: 211x; number of reads: 967 (24.8%)
+CMHP004; depth: 50.79x; max: 3107x; number of reads: 1347080 (52.3%)
+CMHP006; depth: 9.87x; max: 284x; number of reads: 2664 (30.4%)
+CMHP007; depth: 9.11x; max: 336x; number of reads: 6906 (28.9%)
+CMHP008; depth: 22.48x; max: 983x; number of reads: 404677 (79.5%)
+CMHP009; depth: 8.48x; max: 185x; number of reads: 6539 (40.6%)
+CMHP010; depth: 26.45x; max: 1645x; number of reads: 670192 (69.0%)
+ELP002; depth: 53.15x; max: 2760x; number of reads: 1368012 (60.5%)
+ELP003b; depth: 92.49x; max: 1666x; number of reads: 2658817 (76.3%)
+ELP004b; depth: 50.07x; max: 1040x; number of reads: 1253078 (80.4%)
+ELP005a; depth: 53.23x; max: 5373x; number of reads: 1305564 (39.7%)
+ELP006b; depth: 21.47x; max: 852x; number of reads: 407997 (66.8%)
+FLP002; depth: 49.24x; max: 2328x; number of reads: 1211447 (72.2%)
+FPL001; depth: 35.55x; max: 1744x; number of reads: 531699 (76.1%)
+FPL003; depth: 16.35x; max: 661x; number of reads: 165153 (73.2%)
+FPL004; depth: 14.99x; max: 377x; number of reads: 51689 (67.1%)
+FPL005; depth: 25.13x; max: 1174x; number of reads: 167711 (75.2%)
+FPL006; depth: 10.49x; max: 521x; number of reads: 12646 (46.3%)
+FPL007; depth: 25.41x; max: 1030x; number of reads: 489462 (67.4%)
+FPL008; depth: 35.53x; max: 899x; number of reads: 832216 (66.8%)
+FPL009; depth: 15.62x; max: 576x; number of reads: 188112 (70.3%)
+FPL010; depth: 8.54x; max: 202x; number of reads: 8868 (43.6%)
+FS001; depth: 51.74x; max: 1598x; number of reads: 1369480 (59.5%)
+FS002; depth: 87.24x; max: 4360x; number of reads: 2372763 (54.1%)
+GPNC001; depth: 29.54x; max: 1198x; number of reads: 620249 (81.3%)
+GPNC002; depth: 50.08x; max: 1811x; number of reads: 1273458 (78.5%)
+GPNC003; depth: 38.48x; max: 1765x; number of reads: 906255 (80.5%)
+GPNC004; depth: 64.38x; max: 3352x; number of reads: 1737466 (67.2%)
+GPNC005; depth: 41.03x; max: 1983x; number of reads: 991803 (66.6%)
+GPNC006; depth: 28.18x; max: 589x; number of reads: 572877 (79.6%)
+GPNC007; depth: 36.15x; max: 1589x; number of reads: 813639 (80.8%)
+GPNC008; depth: 84.51x; max: 2841x; number of reads: 2569543 (51.7%)
+GPNC009; depth: 30.27x; max: 1085x; number of reads: 651084 (68.9%)
+GPNC010; depth: 49.19x; max: 2199x; number of reads: 1237387 (64.7%)
+GT004; depth: 22.73x; max: 599x; number of reads: 217478 (75.7%)
+GT005; depth: 72.86x; max: 1694x; number of reads: 1566188 (73.9%)
+GT006; depth: 12.81x; max: 160x; number of reads: 20164 (68.9%)
+GT007; depth: 64.56x; max: 1662x; number of reads: 1539709 (73.7%)
+GT008; depth: 38.92x; max: 1270x; number of reads: 545119 (77.3%)
+GT009; depth: 55.31x; max: 1598x; number of reads: 1203107 (74.3%)
+GT010; depth: 32.72x; max: 695x; number of reads: 337089 (75.9%)
+GT011; depth: 38.34x; max: 989x; number of reads: 565199 (77.1%)
+GT012; depth: 14.60x; max: 234x; number of reads: 65533 (75.3%)
+GT013; depth: 15.77x; max: 435x; number of reads: 116251 (69.9%)
+GT014; depth: 24.99x; max: 617x; number of reads: 197683 (74.7%)
+GT015; depth: 8.06x; max: 89x; number of reads: 24077 (68.6%)
+GT016; depth: 50.70x; max: 1550x; number of reads: 762034 (76.0%)
+GT017; depth: 8.15x; max: 79x; number of reads: 8584 (55.7%)
+GT018; depth: 26.23x; max: 802x; number of reads: 194404 (78.4%)
+GT019; depth: 12.99x; max: 202x; number of reads: 41475 (68.3%)
+GT020; depth: 14.50x; max: 245x; number of reads: 48818 (75.0%)
+GT021; depth: 64.34x; max: 1530x; number of reads: 1230168 (74.4%)
+GT022; depth: 42.61x; max: 1550x; number of reads: 568056 (75.7%)
+GT023; depth: 9.14x; max: 111x; number of reads: 22783 (68.4%)
+GT024; depth: 77.43x; max: 2151x; number of reads: 1968351 (73.6%)
+GT025; depth: 20.98x; max: 330x; number of reads: 92160 (76.3%)
+GT026; depth: 46.78x; max: 1079x; number of reads: 298617 (74.4%)
+GT027; depth: 60.68x; max: 1917x; number of reads: 1372139 (74.4%)
+GT028; depth: 40.63x; max: 1199x; number of reads: 699043 (76.0%)
+GT029; depth: 57.15x; max: 2326x; number of reads: 1214468 (76.6%)
+GT030; depth: 15.83x; max: 264x; number of reads: 111555 (74.1%)
+HS001; depth: 21.35x; max: 894x; number of reads: 272369 (73.8%)
+HT001; depth: 14.31x; max: 486x; number of reads: 155463 (71.7%)
+KMA001; depth: 68.35x; max: 3349x; number of reads: 1825983 (67.5%)
+KMA002; depth: 89.62x; max: 1541x; number of reads: 2692404 (76.1%)
+KMA003; depth: 111.84x; max: 2620x; number of reads: 3367873 (72.0%)
+KMA004; depth: 25.34x; max: 854x; number of reads: 488108 (76.6%)
+KMA005; depth: 5.74x; max: 107x; number of reads: 4172 (30.2%)
+KMI001; depth: 19.44x; max: 513x; number of reads: 303218 (76.6%)
+KMI002; depth: 119.73x; max: 5202x; number of reads: 4185246 (65.0%)
+KMI003; depth: 59.88x; max: 2704x; number of reads: 1727242 (76.9%)
+KMI004; depth: 63.98x; max: 6210x; number of reads: 1852206 (35.9%)
+KMI005; depth: 95.38x; max: 1382x; number of reads: 2778578 (75.6%)
+KMI006; depth: 104.03x; max: 2847x; number of reads: 3107065 (74.6%)
+KMI007; depth: 93.39x; max: 5954x; number of reads: 2806543 (48.2%)
+KMI008; depth: 85.03x; max: 2439x; number of reads: 2459353 (57.5%)
+KMI009; depth: 126.79x; max: 3877x; number of reads: 3977981 (46.6%)
+KMI010; depth: 77.50x; max: 1498x; number of reads: 2177248 (77.9%)
+KUC001; depth: 25.86x; max: 959x; number of reads: 507768 (77.8%)
+KUC002; depth: 16.97x; max: 597x; number of reads: 251483 (76.5%)
+KUC003; depth: 12.82x; max: 565x; number of reads: 82904 (65.5%)
+KUC004; depth: 49.74x; max: 2915x; number of reads: 1087547 (66.8%)
+KUC005; depth: 40.30x; max: 4648x; number of reads: 930209 (72.0%)
+KUC006; depth: 53.48x; max: 2936x; number of reads: 1315880 (67.7%)
+KUC007; depth: 30.00x; max: 1152x; number of reads: 518692 (72.7%)
+MLA001; depth: 18.24x; max: 1023x; number of reads: 254445 (76.8%)
+MLA002; depth: 13.84x; max: 309x; number of reads: 112493 (67.1%)
+MLA003; depth: 22.42x; max: 926x; number of reads: 407897 (79.3%)
+MLA004; depth: 9.44x; max: 193x; number of reads: 27522 (55.6%)
+MLA005; depth: 9.50x; max: 305x; number of reads: 14018 (45.1%)
+MLA007; depth: 9.87x; max: 362x; number of reads: 2122 (22.9%)
+MLI001; depth: 36.36x; max: 1407x; number of reads: 845683 (78.7%)
+MLI002; depth: 59.00x; max: 1615x; number of reads: 1584951 (79.0%)
+MLI003; depth: 45.98x; max: 2165x; number of reads: 1111852 (73.4%)
+MLI004; depth: 17.59x; max: 370x; number of reads: 68608 (70.1%)
+MLI005; depth: 35.92x; max: 2323x; number of reads: 873278 (70.7%)
+OCL001; depth: 81.21x; max: 2047x; number of reads: 2311086 (77.9%)
+OCL002; depth: 66.29x; max: 2870x; number of reads: 1772006 (75.8%)
+OCL003; depth: 67.30x; max: 3081x; number of reads: 1839526 (78.1%)
+OCL004; depth: 34.21x; max: 1203x; number of reads: 835249 (79.2%)
+OCL005; depth: 64.48x; max: 2729x; number of reads: 1781046 (76.3%)
+OCL006; depth: 61.67x; max: 4761x; number of reads: 1800971 (64.7%)
+OCL007; depth: 36.81x; max: 3183x; number of reads: 784009 (75.2%)
+OCL008; depth: 62.78x; max: 3582x; number of reads: 1701766 (65.1%)
+OCL009; depth: 48.92x; max: 2837x; number of reads: 1364758 (69.4%)
+OCL010; depth: 29.48x; max: 1166x; number of reads: 535729 (73.0%)
+PBG001; depth: 12.39x; max: 202x; number of reads: 2020 (30.4%)
+PBG002; depth: 15.57x; max: 377x; number of reads: 3379 (31.5%)
+PBG003ab; depth: 11.17x; max: 459x; number of reads: 11559 (40.0%)
+PBG005; depth: 9.18x; max: 255x; number of reads: 13261 (45.7%)
+PBG006; depth: 6.49x; max: 59x; number of reads: 1578 (27.3%)
+PBG007ab; depth: 11.96x; max: 549x; number of reads: 83400 (62.7%)
+PBG008ab; depth: 15.07x; max: 787x; number of reads: 142983 (69.6%)
+PBG009ab; depth: 14.21x; max: 459x; number of reads: 116613 (65.8%)
+PBG010ab; depth: 14.55x; max: 408x; number of reads: 148651 (69.9%)
+PC001; depth: 9.65x; max: 526x; number of reads: 46276 (58.7%)
+PC002; depth: 47.58x; max: 1364x; number of reads: 1190686 (80.4%)
+PC003; depth: 9.92x; max: 459x; number of reads: 59843 (63.2%)
+PC004; depth: 24.97x; max: 771x; number of reads: 170646 (76.6%)
+PC005; depth: 43.92x; max: 1855x; number of reads: 794116 (67.0%)
+PC006; depth: 21.79x; max: 940x; number of reads: 409159 (71.0%)
+PC007; depth: 23.68x; max: 918x; number of reads: 435357 (70.1%)
+PC008; depth: 85.18x; max: 2645x; number of reads: 2419312 (52.7%)
+PC009; depth: 10.51x; max: 304x; number of reads: 38757 (61.2%)
+PC010; depth: 9.90x; max: 413x; number of reads: 15914 (49.9%)
+PLPA004; depth: 23.77x; max: 948x; number of reads: 341743 (76.7%)
+PLPA007; depth: 8.27x; max: 213x; number of reads: 18126 (43.3%)
+PLPI001; depth: 33.37x; max: 1175x; number of reads: 773397 (79.4%)
+PLPI002; depth: 8.80x; max: 386x; number of reads: 8809 (34.6%)
+PLPI003; depth: 80.01x; max: 2141x; number of reads: 2531711 (75.3%)
+PLPI004; depth: 19.41x; max: 1251x; number of reads: 241185 (77.2%)
+PLPI005; depth: 8.49x; max: 141x; number of reads: 17081 (50.7%)
+PLPI006; depth: 47.50x; max: 3653x; number of reads: 1105565 (69.3%)
+PLPI008; depth: 13.59x; max: 321x; number of reads: 3179 (34.1%)
+PLPI009; depth: 44.34x; max: 3124x; number of reads: 1135259 (67.7%)
+PLPI010; depth: 54.24x; max: 1542x; number of reads: 1383916 (78.8%)
+RL001; depth: 10.41x; max: 388x; number of reads: 21823 (48.7%)
+RL002ab; depth: 11.55x; max: 350x; number of reads: 46848 (60.5%)
+RL003; depth: 9.49x; max: 272x; number of reads: 15407 (46.7%)
+RL004ab; depth: 11.91x; max: 276x; number of reads: 55321 (60.3%)
+RL005ab; depth: 9.63x; max: 150x; number of reads: 24353 (53.2%)
+RS001; depth: 26.36x; max: 734x; number of reads: 179181 (76.5%)
+RS002; depth: 5.10x; max: 52x; number of reads: 2498 (44.6%)
+RS003; depth: 43.00x; max: 1250x; number of reads: 616647 (77.0%)
+RS004; depth: 12.86x; max: 264x; number of reads: 44850 (72.7%)
+RS005; depth: 12.41x; max: 181x; number of reads: 32577 (73.2%)
+RS007; depth: 11.90x; max: 175x; number of reads: 25301 (69.4%)
+RS008; depth: 13.15x; max: 252x; number of reads: 39107 (73.8%)
+RS009; depth: 37.14x; max: 1269x; number of reads: 386820 (75.3%)
+RS010; depth: 31.19x; max: 1099x; number of reads: 260018 (76.0%)
+RS011; depth: 58.44x; max: 1617x; number of reads: 955738 (73.6%)
+RS012; depth: 21.81x; max: 512x; number of reads: 129200 (79.0%)
+RS013; depth: 91.41x; max: 2408x; number of reads: 928310 (66.8%)
+RS014; depth: 63.73x; max: 1399x; number of reads: 546424 (73.6%)
+RSA001; depth: 44.12x; max: 3394x; number of reads: 837379 (66.1%)
+RSI201; depth: 15.13x; max: 303x; number of reads: 923 (22.4%)
+RSI202; depth: 47.71x; max: 2015x; number of reads: 1176802 (71.3%)
+RSI203; depth: 42.29x; max: 939x; number of reads: 1028298 (81.0%)
+RSI204; depth: 55.75x; max: 2124x; number of reads: 1452255 (59.9%)
+RSI206; depth: 42.74x; max: 3278x; number of reads: 773635 (69.1%)
+RSI207; depth: 50.30x; max: 3992x; number of reads: 1011703 (49.4%)
+RSI208; depth: 53.95x; max: 3847x; number of reads: 1463071 (41.0%)
+RSI209; depth: 44.64x; max: 3008x; number of reads: 1055944 (73.5%)
+SLP001; depth: 48.48x; max: 1020x; number of reads: 1226282 (79.8%)
+SLP002; depth: 13.98x; max: 619x; number of reads: 157480 (75.5%)
+SLP003; depth: 76.11x; max: 2731x; number of reads: 2141059 (77.8%)
+SLP004; depth: 56.93x; max: 3156x; number of reads: 1470988 (79.4%)
+SLP005; depth: 45.79x; max: 1962x; number of reads: 1168537 (79.5%)
+SLP006; depth: 39.92x; max: 895x; number of reads: 909603 (80.4%)
+SLP007; depth: 60.92x; max: 2317x; number of reads: 1590058 (77.2%)
+SLP008; depth: 39.23x; max: 1666x; number of reads: 890018 (78.9%)
+SLP010; depth: 43.26x; max: 1514x; number of reads: 1031583 (80.6%)
+SW001; depth: 6.22x; max: 76x; number of reads: 5758 (36.6%)
+SW002; depth: 5.63x; max: 58x; number of reads: 1970 (26.5%)
+SW003; depth: 7.18x; max: 163x; number of reads: 1422 (18.0%)
+SW004; depth: 18.36x; max: 474x; number of reads: 258308 (68.7%)
+SW005; depth: 17.43x; max: 711x; number of reads: 177336 (74.6%)
+SW006; depth: 9.99x; max: 332x; number of reads: 20959 (50.2%)
+SW007; depth: 12.50x; max: 515x; number of reads: 66978 (65.5%)
+SW008; depth: 7.74x; max: 68x; number of reads: 10520 (47.5%)
+SW009; depth: 5.91x; max: 41x; number of reads: 2334 (27.1%)
+SW010; depth: 8.65x; max: 270x; number of reads: 23497 (53.6%)
+SWCPA001; depth: 44.69x; max: 2069x; number of reads: 768966 (63.8%)
+SWCPA002; depth: 44.73x; max: 1792x; number of reads: 1123554 (66.5%)
+SWCPA003; depth: 42.97x; max: 3485x; number of reads: 666524 (69.7%)
+SWCPI001; depth: 63.64x; max: 1682x; number of reads: 1736028 (80.6%)
+SWCPI002; depth: 69.68x; max: 1604x; number of reads: 1938312 (77.5%)
+SWCPI003; depth: 21.98x; max: 986x; number of reads: 397151 (78.7%)
+SWCPI004; depth: 75.40x; max: 1598x; number of reads: 2123475 (76.8%)
+SWCPI005; depth: 48.30x; max: 3066x; number of reads: 1192675 (71.8%)
+SWCPI006; depth: 22.59x; max: 720x; number of reads: 379921 (69.4%)
+SWCPI007; depth: 38.90x; max: 2261x; number of reads: 943658 (69.1%)
+SWCPI008; depth: 29.76x; max: 1274x; number of reads: 261671 (76.5%)
+SWCPI009; depth: 52.13x; max: 3465x; number of reads: 1158242 (56.1%)
+SWCPI010; depth: 19.23x; max: 450x; number of reads: 91808 (72.8%)
+TBD001; depth: 30.64x; max: 1393x; number of reads: 638283 (79.1%)
+TF002; depth: 27.95x; max: 708x; number of reads: 582829 (80.9%)
+TFI001; depth: 100.10x; max: 3982x; number of reads: 3035788 (72.4%)
+TFI003; depth: 40.78x; max: 1733x; number of reads: 1041182 (80.9%)
+TFI004; depth: 29.74x; max: 1589x; number of reads: 564271 (75.7%)
+TFI005; depth: 42.74x; max: 2243x; number of reads: 1337849 (64.9%)
+TFI006; depth: 47.34x; max: 1891x; number of reads: 1252886 (62.4%)
+TFI007; depth: 50.95x; max: 3380x; number of reads: 1289934 (63.1%)
+TFI008; depth: 25.21x; max: 1022x; number of reads: 490919 (79.0%)
+TFI009; depth: 16.36x; max: 315x; number of reads: 152243 (65.4%)
+TFI010; depth: 46.29x; max: 2059x; number of reads: 1175402 (62.7%)
+TRC001; depth: 47.08x; max: 946x; number of reads: 862366 (78.8%)
+TRC002; depth: 40.79x; max: 1281x; number of reads: 681270 (76.5%)
+TRC003; depth: 30.16x; max: 931x; number of reads: 305160 (77.7%)
+TRC004; depth: 51.53x; max: 1549x; number of reads: 994426 (78.1%)
+TRC005; depth: 41.00x; max: 1246x; number of reads: 471202 (76.1%)
+TRC006; depth: 26.91x; max: 725x; number of reads: 202777 (78.5%)
+TRC007; depth: 55.69x; max: 1285x; number of reads: 393356 (71.9%)
+TRC008; depth: 81.23x; max: 2209x; number of reads: 731056 (70.9%)
+TRC009; depth: 6.43x; max: 56x; number of reads: 3380 (50.3%)
+TRC011; depth: 28.73x; max: 647x; number of reads: 285041 (78.0%)
+UR001; depth: 19.50x; max: 654x; number of reads: 286885 (76.5%)
+UR002; depth: 9.45x; max: 306x; number of reads: 5793 (29.8%)
+UR003; depth: 15.00x; max: 697x; number of reads: 200090 (77.5%)
+UR004; depth: 8.50x; max: 220x; number of reads: 2507 (30.9%)
+UR005; depth: 12.18x; max: 354x; number of reads: 68021 (70.3%)
+VR001; depth: 12.28x; max: 673x; number of reads: 2247 (18.2%)
+VR002; depth: 8.30x; max: 221x; number of reads: 1943 (22.8%)
+VR003; depth: 32.77x; max: 1629x; number of reads: 637913 (74.9%)
+VR004; depth: 37.11x; max: 1293x; number of reads: 398273 (74.7%)
+VR005; depth: 13.78x; max: 437x; number of reads: 4342 (28.1%)
+VWMA002; depth: 41.10x; max: 1493x; number of reads: 979595 (79.5%)
+VWMI001b; depth: 44.36x; max: 2778x; number of reads: 1118900 (67.3%)
+VWMI002; depth: 22.08x; max: 777x; number of reads: 389469 (78.5%)
+VWMI003; depth: 10.21x; max: 342x; number of reads: 61180 (65.0%)
+VWMI004; depth: 36.76x; max: 2394x; number of reads: 427011 (72.4%)
+VWMI005; depth: 34.51x; max: 1507x; number of reads: 343414 (74.4%)
+VWMI006; depth: 49.76x; max: 8955x; number of reads: 1186583 (44.9%)
+VWMI007; depth: 25.76x; max: 1157x; number of reads: 527378 (71.8%)
+VWMI008; depth: 39.71x; max: 2556x; number of reads: 926068 (80.9%)
+VWMI009; depth: 38.34x; max: 1994x; number of reads: 838701 (72.4%)
+VWMI010; depth: 45.98x; max: 3070x; number of reads: 1097635 (58.7%)
+
+Generating catalog...
+  cstacks -p 16 -n 8 -M /Users/wrenquist/F21F22S.gr_allgracilenta_onepop_popmap_020723.txt -P /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8
+
+Matching samples to the catalog...
+  sstacks -P /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -p 16 -M /Users/wrenquist/F21F22S.gr_allgracilenta_onepop_popmap_020723.txt
+
+Sorting reads by RAD locus...
+  tsv2bam -P /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8  -t 16 -M /Users/wrenquist/F21F22S.gr_allgracilenta_onepop_popmap_020723.txt
+
+Calling variants, genotypes and haplotypes...
+  gstacks -P /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -t 16 -M /Users/wrenquist/F21F22S.gr_allgracilenta_onepop_popmap_020723.txt
+
+Calculating population-level summary statistics
+  populations -P /Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn8 -t 16 -M /Users/wrenquist/F21F22S.gr_allgracilenta_onepop_popmap_020723.txt
+
+denovo_map.pl is done.

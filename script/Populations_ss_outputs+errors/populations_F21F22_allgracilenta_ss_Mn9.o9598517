@@ -1,0 +1,833 @@
+Logging to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_ss_Mn9/Stacksrun0.7/populations.log'.
+Locus/sample distributions will be written to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_ss_Mn9/Stacksrun0.7/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0.7
+  Locus Population limit: 1
+  Percent samples overall: 0
+  Minor allele frequency cutoff: 0
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: off
+  F-stats kernel smoothing: off
+  Bootstrap resampling: off
+
+Parsing population map...
+The population map contained 275 samples, 38 population(s), 1 group(s).
+Working on 275 samples.
+Working on 38 population(s):
+    1: AR001, AR002, AR003, AR004, AR005, AR006
+    2: BHB001, BHB002, BHB101, BHB102, BHB103, BHB201, BHB301, BHB302, BHB303, BHB304, BHB305, BHB306, BHB307, BHB308, BHB310
+    3: BPA003, BPA004, BPA006, BPA007
+    4: BPI001, BPI002, BPI003, BPI004, BPI005, BPI006, BPI007, BPI008, BPI009, BPI010
+    5: CBEC001a
+    6: CMHP001, CMHP002, CMHP003, CMHP004, CMHP006, CMHP007, CMHP008, CMHP009, CMHP010
+    7: ELP002, ELP003b, ELP004b, ELP005a, ELP006b
+    8: FLP002, FPL001, FPL003, FPL004, FPL005, FPL006, FPL007, FPL008, FPL009, FPL010
+    9: FS001, FS002
+    10: GPNC001, GPNC002, GPNC003, GPNC004, GPNC005, GPNC006, GPNC007, GPNC008, GPNC009, GPNC010
+    11: GT004, GT005, GT006, GT007, GT008, GT009, GT010, GT011, GT012, GT013, GT014, GT015, GT016, GT017, GT018, GT019, GT020, GT021, 
+        GT022, GT023, GT024, GT025, GT026, GT027, GT028, GT029, GT030
+    12: HS001
+    13: HT001
+    14: KMA001, KMA002, KMA003, KMA004, KMA005
+    15: KMI001, KMI002, KMI003, KMI004, KMI005, KMI006, KMI007, KMI008, KMI009, KMI010
+    16: KUC001, KUC002, KUC003, KUC004, KUC005, KUC006, KUC007
+    17: MLA001, MLA002, MLA003, MLA004, MLA005, MLA007
+    18: MLI001, MLI002, MLI003, MLI004, MLI005
+    19: OCL001, OCL002, OCL003, OCL004, OCL005, OCL006, OCL007, OCL008, OCL009, OCL010
+    20: PBG001, PBG002, PBG003ab, PBG005, PBG006, PBG007ab, PBG008ab, PBG009ab, PBG010ab
+    21: PC001, PC002, PC003, PC004, PC005, PC006, PC007, PC008, PC009, PC010
+    22: PLPA004, PLPA007
+    23: PLPI001, PLPI002, PLPI003, PLPI004, PLPI005, PLPI006, PLPI008, PLPI009, PLPI010
+    24: RL001, RL002ab, RL003, RL004ab, RL005ab
+    25: RS001, RS002, RS003, RS004, RS005, RS007, RS008, RS009, RS010, RS011, RS012, RS013, RS014
+    26: RSA001
+    27: RSI201, RSI202, RSI203, RSI204, RSI206, RSI207, RSI208, RSI209
+    28: SLP001, SLP002, SLP003, SLP004, SLP005, SLP006, SLP007, SLP008, SLP010
+    29: SW001, SW002, SW003, SW004, SW005, SW006, SW007, SW008, SW009, SW010
+    30: SWCPA001, SWCPA002, SWCPA003
+    31: SWCPI001, SWCPI002, SWCPI003, SWCPI004, SWCPI005, SWCPI006, SWCPI007, SWCPI008, SWCPI009, SWCPI010
+    32: TBD001
+    33: TF002, TFI001, TFI003, TFI004, TFI005, TFI006, TFI007, TFI008, TFI009, TFI010
+    34: TRC001, TRC002, TRC003, TRC004, TRC005, TRC006, TRC007, TRC008, TRC009, TRC011
+    35: UR001, UR002, UR003, UR004, UR005
+    36: VR001, VR002, VR003, VR004, VR005
+    37: VWMA002
+    38: VWMI001b, VWMI002, VWMI003, VWMI004, VWMI005, VWMI006, VWMI007, VWMI008, VWMI009, VWMI010
+Working on 1 group(s) of populations:
+    defaultgrp: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38
+
+SNPs and calls will be written in VCF format to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_ss_Mn9/Stacksrun0.7/populations.snps.vcf'
+Polymorphic sites in Structure format will be written to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_ss_Mn9/Stacksrun0.7/populations.structure'
+Polymorphic sites in PLINK format will be written to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_ss_Mn9/Stacksrun0.7/populations.plink.ped'
+Fixed difference sites in Phylip format will be written to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_ss_Mn9/Stacksrun0.7/populations.fixed.phylip'
+Polymorphic sites in Phylip format will be written to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_ss_Mn9/Stacksrun0.7/populations.var.phylip'
+Raw haplotypes will be written to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_ss_Mn9/Stacksrun0.7/populations.haplotypes.tsv'
+Population-level summary statistics will be written to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_ss_Mn9/Stacksrun0.7/populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_ss_Mn9/Stacksrun0.7/populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * compute F-statistics
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_ss_Mn9/Stacksrun0.7/populations.log.distribs'.
+
+Now processing...
+Batch 1 
+Batch 2 
+Batch 3 
+Batch 4 
+Batch 5 
+
+Removed 233094 loci that did not pass sample/population constraints from 278137 loci.
+Kept 45043 loci, composed of 6418674 sites; 581 of those sites were filtered, 24588 variant sites remained.
+Mean genotyped sites per locus: 142.46bp (stderr 0.01).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  1: 5 samples per locus; pi: 0.024691; all/variant/polymorphic sites: 5131/27/2; private alleles: 0
+  2: 11.375 samples per locus; pi: 0.060944; all/variant/polymorphic sites: 2838/16/3; private alleles: 1
+  3: 3.1448 samples per locus; pi: 0.094444; all/variant/polymorphic sites: 650572/4233/920; private alleles: 90
+  4: 7.6996 samples per locus; pi: 0.081026; all/variant/polymorphic sites: 716799/4671/1442; private alleles: 115
+  5: 1 samples per locus; pi: 0.070152; all/variant/polymorphic sites: 2396342/12473/875; private alleles: 323
+  6: 7.0667 samples per locus; pi: 0.10673; all/variant/polymorphic sites: 5285/30/10; private alleles: 0
+  7: 4.5067 samples per locus; pi: 0.10952; all/variant/polymorphic sites: 1580008/10277/2991; private alleles: 443
+  8: 7.6498 samples per locus; pi: 0.075969; all/variant/polymorphic sites: 241384/1579/453; private alleles: 37
+  9: 2 samples per locus; pi: 0.14057; all/variant/polymorphic sites: 1868589/11931/2939; private alleles: 588
+  10: 8.7128 samples per locus; pi: 0.10691; all/variant/polymorphic sites: 1672677/11086/4455; private alleles: 719
+  11: 21.539 samples per locus; pi: 0.083265; all/variant/polymorphic sites: 228584/1470/696; private alleles: 100
+  12: 1 samples per locus; pi: 0.09431; all/variant/polymorphic sites: 1569672/8419/794; private alleles: 219
+  13: 1 samples per locus; pi: 0.10335; all/variant/polymorphic sites: 1363949/7363/761; private alleles: 181
+  14: 4.0014 samples per locus; pi: 0.098306; all/variant/polymorphic sites: 998934/6514/1734; private alleles: 232
+  15: 8.5778 samples per locus; pi: 0.12095; all/variant/polymorphic sites: 1849114/12283/5794; private alleles: 1364
+  16: 5.747 samples per locus; pi: 0.095796; all/variant/polymorphic sites: 1099192/7213/2167; private alleles: 209
+  17: 5.1509 samples per locus; pi: 0.079874; all/variant/polymorphic sites: 9003/53/11; private alleles: 0
+  18: 4.1283 samples per locus; pi: 0.09583; all/variant/polymorphic sites: 1266268/8275/2074; private alleles: 264
+  19: 8.6733 samples per locus; pi: 0.11252; all/variant/polymorphic sites: 1791822/11890/5080; private alleles: 842
+  20: 7.2093 samples per locus; pi: 0.042825; all/variant/polymorphic sites: 8131/43/8; private alleles: 0
+  21: 7.653 samples per locus; pi: 0.071154; all/variant/polymorphic sites: 275610/1781/498; private alleles: 42
+  22: 2 samples per locus; pi: 0.0891; all/variant/polymorphic sites: 94293/578/90; private alleles: 13
+  23: 7.1583 samples per locus; pi: 0.072794; all/variant/polymorphic sites: 96505/600/163; private alleles: 14
+  24: 4.4343 samples per locus; pi: 0.076143; all/variant/polymorphic sites: 111339/654/123; private alleles: 14
+  25: 10.879 samples per locus; pi: 0.089445; all/variant/polymorphic sites: 120418/791/291; private alleles: 29
+  26: 1 samples per locus; pi: 0.10903; all/variant/polymorphic sites: 2389153/12171/1327; private alleles: 360
+  27: 6.5069 samples per locus; pi: 0.095437; all/variant/polymorphic sites: 1149188/7585/2521; private alleles: 346
+  28: 8.0536 samples per locus; pi: 0.10265; all/variant/polymorphic sites: 1457972/9668/3832; private alleles: 631
+  29: 7.449 samples per locus; pi: 0.068916; all/variant/polymorphic sites: 17758/98/26; private alleles: 0
+  30: 3 samples per locus; pi: 0.098537; all/variant/polymorphic sites: 797039/5194/1159; private alleles: 149
+  31: 7.9796 samples per locus; pi: 0.096808; all/variant/polymorphic sites: 1270050/8397/3053; private alleles: 427
+  32: 1 samples per locus; pi: 0.12211; all/variant/polymorphic sites: 2695495/13742/1678; private alleles: 443
+  33: 8.4713 samples per locus; pi: 0.10775; all/variant/polymorphic sites: 1556339/10304/4358; private alleles: 679
+  34: 8.0404 samples per locus; pi: 0.10635; all/variant/polymorphic sites: 425059/2798/1138; private alleles: 222
+  35: 4.1344 samples per locus; pi: 0.085416; all/variant/polymorphic sites: 39734/253/58; private alleles: 4
+  36: 4.2 samples per locus; pi: 0.080889; all/variant/polymorphic sites: 5013/25/6; private alleles: 1
+  37: 1 samples per locus; pi: 0.13302; all/variant/polymorphic sites: 3162942/15982/2126; private alleles: 527
+  38: 8.0018 samples per locus; pi: 0.10182; all/variant/polymorphic sites: 1248175/8152/2828; private alleles: 406
+
+Population pair divergence statistics (more in populations.fst_summary.tsv and populations.phistats_summary.tsv):
+  1-2: mean Fst: -nan; mean Phi_st: -nan; mean Fst': -nan; mean Dxy: -nan
+  1-3: mean Fst: 0.1179; mean Phi_st: 0.10296; mean Fst': 0.028984; mean Dxy: 0.0017926
+  1-4: mean Fst: 0.038078; mean Phi_st: -0.0017482; mean Fst': 0.0002269; mean Dxy: 0.00058641
+  1-5: mean Fst: 0.28136; mean Phi_st: 0.29037; mean Fst': 0.11264; mean Dxy: 0.0029829
+  1-6: mean Fst: -nan; mean Phi_st: -nan; mean Fst': -nan; mean Dxy: -nan
+  1-7: mean Fst: 0.066563; mean Phi_st: 0.019642; mean Fst': 0.0025202; mean Dxy: 0.001247
+  1-8: mean Fst: 0.033559; mean Phi_st: -0.013722; mean Fst': -0.0021731; mean Dxy: 0.00082666
+  1-9: mean Fst: 0.030769; mean Phi_st: -0.1215; mean Fst': -0.018388; mean Dxy: 0.00071259
+  1-10: mean Fst: 0.052234; mean Phi_st: 0.029391; mean Fst': 0.0089904; mean Dxy: 0.0015855
+  1-11: mean Fst: 0.025144; mean Phi_st: 0.021301; mean Fst': 0.013318; mean Dxy: 0.0013338
+  1-12: mean Fst: 0.021591; mean Phi_st: -0.30533; mean Fst': -0.17674; mean Dxy: 0.0021378
+  1-13: mean Fst: 0.1798; mean Phi_st: 0.090074; mean Fst': 0.066646; mean Dxy: 0.0020231
+  1-14: mean Fst: 0.12353; mean Phi_st: 0.111; mean Fst': 0.051793; mean Dxy: 0.0014252
+  1-15: mean Fst: 0.035484; mean Phi_st: -0.011254; mean Fst': -0.012456; mean Dxy: 0.001101
+  1-16: mean Fst: 0.056776; mean Phi_st: 0.01175; mean Fst': 0.0074775; mean Dxy: 0.0015309
+  1-17: mean Fst: 0.039683; mean Phi_st: -0.016166; mean Fst': -0.0015934; mean Dxy: 0.00059383
+  1-18: mean Fst: 0.14926; mean Phi_st: 0.13038; mean Fst': 0.10318; mean Dxy: 0.0022867
+  1-19: mean Fst: 0.027841; mean Phi_st: -0.025116; mean Fst': -0.0031558; mean Dxy: 0.001022
+  1-20: mean Fst: 0.031056; mean Phi_st: -0.02593; mean Fst': -0.002303; mean Dxy: 0.00048442
+  1-21: mean Fst: 0.062229; mean Phi_st: 0.050405; mean Fst': 0.016602; mean Dxy: 0.0011035
+  1-22: mean Fst: 0.19231; mean Phi_st: 0.24528; mean Fst': 0.051383; mean Dxy: 0.0017815
+  1-23: mean Fst: 0.06087; mean Phi_st: 0.035222; mean Fst': 0.0033079; mean Dxy: 0.00071259
+  1-24: mean Fst: 0.42857; mean Phi_st: 0.55556; mean Fst': 0.45455; mean Dxy: 0.0042756
+  1-25: mean Fst: 0.040948; mean Phi_st: 0.019772; mean Fst': 0.01232; mean Dxy: 0.0011558
+  1-26: mean Fst: 0.021591; mean Phi_st: -0.30533; mean Fst': -0.17674; mean Dxy: 0.0021378
+  1-27: mean Fst: 0.060781; mean Phi_st: 0.027966; mean Fst': 0.0079418; mean Dxy: 0.0011215
+  1-28: mean Fst: 0.043896; mean Phi_st: 0.008205; mean Fst': 0.0043095; mean Dxy: 0.0012329
+  1-29: mean Fst: 0.079231; mean Phi_st: 0.063846; mean Fst': 0.023394; mean Dxy: 0.0012816
+  1-30: mean Fst: 0.04; mean Phi_st: -0.058824; mean Fst': -0.034303; mean Dxy: 0.0021378
+  1-31: mean Fst: 0.040162; mean Phi_st: 0.0037613; mean Fst': 0.010361; mean Dxy: 0.001353
+  1-32: mean Fst: 0.021591; mean Phi_st: -0.30533; mean Fst': -0.17674; mean Dxy: 0.0021378
+  1-33: mean Fst: 0.039978; mean Phi_st: 0.0028455; mean Fst': -0.00039698; mean Dxy: 0.0011178
+  1-34: mean Fst: 0.0862; mean Phi_st: 0.082692; mean Fst': 0.047877; mean Dxy: 0.0011543
+  1-35: mean Fst: 0.10353; mean Phi_st: 0.081523; mean Fst': 0.038277; mean Dxy: 0.001924
+  1-36: mean Fst: 0.073529; mean Phi_st: 0.029463; mean Fst': 0.0037803; mean Dxy: 0.0018635
+  1-37: mean Fst: 0.021591; mean Phi_st: -0.30533; mean Fst': -0.17674; mean Dxy: 0.0021378
+  1-38: mean Fst: 0.046328; mean Phi_st: 0.022022; mean Fst': -0.0011852; mean Dxy: 0.0012771
+  2-3: mean Fst: 0.044435; mean Phi_st: 0.0042281; mean Fst': 0.035957; mean Dxy: 0.0022314
+  2-4: mean Fst: 0.037832; mean Phi_st: 0.018945; mean Fst': -0.012757; mean Dxy: 0.0024687
+  2-5: mean Fst: 0; mean Phi_st: -0.375; mean Fst': -0.42353; mean Dxy: 0.0034884
+  2-6: mean Fst: 0.044898; mean Phi_st: 0.033784; mean Fst': 0.0020525; mean Dxy: 0.0010604
+  2-7: mean Fst: 0.050993; mean Phi_st: 0.036016; mean Fst': 0.038206; mean Dxy: 0.0036876
+  2-8: mean Fst: 0.028847; mean Phi_st: 0.0019382; mean Fst': 0.00040877; mean Dxy: 0.0024961
+  2-9: mean Fst: 0.0030864; mean Phi_st: -0.15633; mean Fst': -0.10001; mean Dxy: 0.0018895
+  2-10: mean Fst: 0.091772; mean Phi_st: 0.11809; mean Fst': 0.081501; mean Dxy: 0.0022699
+  2-11: mean Fst: 0.016398; mean Phi_st: 0.0034037; mean Fst': 0.0075694; mean Dxy: 0.0014279
+  2-12: mean Fst: 0.076923; mean Phi_st: 0.18519; mean Fst': 0.18519; mean Dxy: 0.0034884
+  2-13: mean Fst: 0.16739; mean Phi_st: 0.1069; mean Fst': -0.053994; mean Dxy: 0.0028903
+  2-14: mean Fst: 0.0078647; mean Phi_st: -0.069965; mean Fst': -0.039709; mean Dxy: 0.0021234
+  2-15: mean Fst: 0.020704; mean Phi_st: -0.0088404; mean Fst': -0.014713; mean Dxy: 0.0019421
+  2-16: mean Fst: 0.0030303; mean Phi_st: -0.062623; mean Fst': -0.053157; mean Dxy: 0.0034987
+  2-17: mean Fst: -nan; mean Phi_st: -nan; mean Fst': -nan; mean Dxy: -nan
+  2-18: mean Fst: 0.14667; mean Phi_st: 0.23211; mean Fst': 0.20505; mean Dxy: 0.0034884
+  2-19: mean Fst: 0.020822; mean Phi_st: -0.013985; mean Fst': -0.00041312; mean Dxy: 0.0036714
+  2-20: mean Fst: 0.044898; mean Phi_st: 0.033784; mean Fst': 0.0020525; mean Dxy: 0.000509
+  2-21: mean Fst: 0.013246; mean Phi_st: -0.031974; mean Fst': -0.017924; mean Dxy: 0.0026113
+  2-22: mean Fst: 0.04329; mean Phi_st: 0.012541; mean Fst': 0.005264; mean Dxy: 0.0016195
+  2-23: mean Fst: 0.044898; mean Phi_st: 0.033784; mean Fst': 0.017644; mean Dxy: 0.0019987
+  2-24: mean Fst: 0.050817; mean Phi_st: 0.040947; mean Fst': 0.014503; mean Dxy: 0.0024584
+  2-25: mean Fst: 0.040822; mean Phi_st: 0.033181; mean Fst': 0.030433; mean Dxy: 0.0021159
+  2-26: mean Fst: 0; mean Phi_st: -0.375; mean Fst': -0.42353; mean Dxy: 0.0034884
+  2-27: mean Fst: 0.032558; mean Phi_st: 0.0049281; mean Fst': 0.0020304; mean Dxy: 0.0019434
+  2-28: mean Fst: 0.06936; mean Phi_st: 0.084435; mean Fst': 0.05996; mean Dxy: 0.0026619
+  2-29: mean Fst: 0.0090429; mean Phi_st: -0.038279; mean Fst': -0.01392; mean Dxy: 0.0013195
+  2-30: mean Fst: 0.078367; mean Phi_st: 0.10492; mean Fst': -0.01701; mean Dxy: 0.002338
+  2-31: mean Fst: 0.014946; mean Phi_st: -0.020905; mean Fst': -0.024369; mean Dxy: 0.0019223
+  2-32: mean Fst: 0.14721; mean Phi_st: 0.14993; mean Fst': 0.1034; mean Dxy: 0.0027263
+  2-33: mean Fst: 0.037189; mean Phi_st: 0.023074; mean Fst': 0.0074809; mean Dxy: 0.0010431
+  2-34: mean Fst: 0.026894; mean Phi_st: 0.0017015; mean Fst': -0.0087552; mean Dxy: 0.0012156
+  2-35: mean Fst: 0.094828; mean Phi_st: 0.14146; mean Fst': 0.011633; mean Dxy: 0.00086606
+  2-36: mean Fst: 0.012626; mean Phi_st: -0.043676; mean Fst': -0.0026223; mean Dxy: 0.0002907
+  2-37: mean Fst: 0.034727; mean Phi_st: -0.096757; mean Fst': 0.034468; mean Dxy: 0.0017995
+  2-38: mean Fst: 0.033764; mean Phi_st: 0.014011; mean Fst': -0.010583; mean Dxy: 0.0014143
+  3-4: mean Fst: 0.056559; mean Phi_st: 0.008311; mean Fst': 0.0044106; mean Dxy: 0.0015974
+  3-5: mean Fst: 0.19919; mean Phi_st: 0.0059844; mean Fst': 0.072985; mean Dxy: 0.00281
+  3-6: mean Fst: 0.059959; mean Phi_st: 0.0062789; mean Fst': 0.012251; mean Dxy: 0.0020972
+  3-7: mean Fst: 0.094025; mean Phi_st: 0.03609; mean Fst': 0.020665; mean Dxy: 0.0019956
+  3-8: mean Fst: 0.062278; mean Phi_st: 0.020887; mean Fst': 0.010308; mean Dxy: 0.0016668
+  3-9: mean Fst: 0.13044; mean Phi_st: 0.020602; mean Fst': 0.011047; mean Dxy: 0.0022738
+  3-10: mean Fst: 0.051967; mean Phi_st: 0.0086444; mean Fst': 0.0065568; mean Dxy: 0.0015676
+  3-11: mean Fst: 0.029126; mean Phi_st: 0.0088582; mean Fst': 0.0061258; mean Dxy: 0.0012535
+  3-12: mean Fst: 0.17751; mean Phi_st: -0.02198; mean Fst': 0.022978; mean Dxy: 0.0027191
+  3-13: mean Fst: 0.15171; mean Phi_st: -0.062861; mean Fst': -0.018266; mean Dxy: 0.0026
+  3-14: mean Fst: 0.089963; mean Phi_st: 0.01896; mean Fst': 0.011662; mean Dxy: 0.0018716
+  3-15: mean Fst: 0.050662; mean Phi_st: 0.0029642; mean Fst': 0.0051692; mean Dxy: 0.0015323
+  3-16: mean Fst: 0.074279; mean Phi_st: 0.020764; mean Fst': 0.013173; mean Dxy: 0.0018372
+  3-17: mean Fst: 0.11266; mean Phi_st: 0.086022; mean Fst': 0.054137; mean Dxy: 0.0023384
+  3-18: mean Fst: 0.092328; mean Phi_st: 0.026941; mean Fst': 0.015033; mean Dxy: 0.0019578
+  3-19: mean Fst: 0.051114; mean Phi_st: 0.0063104; mean Fst': 0.0056367; mean Dxy: 0.0015477
+  3-20: mean Fst: 0.060335; mean Phi_st: 0.021294; mean Fst': 0.0029825; mean Dxy: 0.0015576
+  3-21: mean Fst: 0.053112; mean Phi_st: 0.0023085; mean Fst': 0.0015356; mean Dxy: 0.001615
+  3-22: mean Fst: 0.11737; mean Phi_st: 0.0048132; mean Fst': -0.0053712; mean Dxy: 0.0023043
+  3-23: mean Fst: 0.061285; mean Phi_st: 0.015551; mean Fst': 0.0041804; mean Dxy: 0.0016612
+  3-24: mean Fst: 0.12684; mean Phi_st: 0.088597; mean Fst': 0.052161; mean Dxy: 0.0022415
+  3-25: mean Fst: 0.046682; mean Phi_st: 0.013519; mean Fst': 0.0073262; mean Dxy: 0.0016476
+  3-26: mean Fst: 0.17575; mean Phi_st: -0.020342; mean Fst': 0.028919; mean Dxy: 0.0026733
+  3-27: mean Fst: 0.06564; mean Phi_st: 0.012785; mean Fst': 0.010045; mean Dxy: 0.0016607
+  3-28: mean Fst: 0.05425; mean Phi_st: 0.0070477; mean Fst': 0.0083424; mean Dxy: 0.0015502
+  3-29: mean Fst: 0.030831; mean Phi_st: -0.046801; mean Fst': -0.02623; mean Dxy: 0.0020953
+  3-30: mean Fst: 0.10558; mean Phi_st: 0.020138; mean Fst': 0.0084449; mean Dxy: 0.0020672
+  3-31: mean Fst: 0.054242; mean Phi_st: 0.0073849; mean Fst': 0.005533; mean Dxy: 0.0015855
+  3-32: mean Fst: 0.17315; mean Phi_st: -0.032403; mean Fst': 0.0015683; mean Dxy: 0.0026879
+  3-33: mean Fst: 0.048285; mean Phi_st: -0.0019286; mean Fst': 0.0050369; mean Dxy: 0.001486
+  3-34: mean Fst: 0.055862; mean Phi_st: 0.0095987; mean Fst': 0.009493; mean Dxy: 0.0016109
+  3-35: mean Fst: 0.082168; mean Phi_st: 0.011406; mean Fst': 0.001342; mean Dxy: 0.001902
+  3-36: mean Fst: 0.033361; mean Phi_st: -0.084979; mean Fst': -0.064108; mean Dxy: 0.0020304
+  3-37: mean Fst: 0.19968; mean Phi_st: 0.012793; mean Fst': 0.046844; mean Dxy: 0.0028657
+  3-38: mean Fst: 0.06881; mean Phi_st: 0.037328; mean Fst': 0.019408; mean Dxy: 0.0017674
+  4-5: mean Fst: 0.093645; mean Phi_st: -0.087032; mean Fst': 0.0541; mean Dxy: 0.0018656
+  4-6: mean Fst: 0.014791; mean Phi_st: -0.038709; mean Fst': -0.031032; mean Dxy: 0.0025305
+  4-7: mean Fst: 0.056115; mean Phi_st: 0.021097; mean Fst': 0.010373; mean Dxy: 0.0015673
+  4-8: mean Fst: 0.041777; mean Phi_st: 0.014564; mean Fst': 0.0057125; mean Dxy: 0.0013484
+  4-9: mean Fst: 0.06833; mean Phi_st: -0.0019762; mean Fst': 0.010216; mean Dxy: 0.0016741
+  4-10: mean Fst: 0.040047; mean Phi_st: 0.015228; mean Fst': 0.0058657; mean Dxy: 0.0013324
+  4-11: mean Fst: 0.021765; mean Phi_st: 0.0088492; mean Fst': 0.0026723; mean Dxy: 0.0011289
+  4-12: mean Fst: 0.073471; mean Phi_st: -0.11877; mean Fst': 0.014582; mean Dxy: 0.001802
+  4-13: mean Fst: 0.069918; mean Phi_st: -0.11926; mean Fst': 0.0061658; mean Dxy: 0.0018023
+  4-14: mean Fst: 0.052791; mean Phi_st: 0.011094; mean Fst': 0.0058049; mean Dxy: 0.0014593
+  4-15: mean Fst: 0.036919; mean Phi_st: 0.0091613; mean Fst': 0.0034069; mean Dxy: 0.001299
+  4-16: mean Fst: 0.04476; mean Phi_st: 0.010155; mean Fst': 0.0037536; mean Dxy: 0.0014908
+  4-17: mean Fst: 0.02914; mean Phi_st: -0.02585; mean Fst': -0.015216; mean Dxy: 0.0015531
+  4-18: mean Fst: 0.057897; mean Phi_st: 0.021723; mean Fst': 0.011424; mean Dxy: 0.0015307
+  4-19: mean Fst: 0.035306; mean Phi_st: 0.0071496; mean Fst': 0.0018273; mean Dxy: 0.0013111
+  4-20: mean Fst: 0.033648; mean Phi_st: -0.0021028; mean Fst': -0.012314; mean Dxy: 0.0012153
+  4-21: mean Fst: 0.039969; mean Phi_st: 0.011134; mean Fst': 0.0063746; mean Dxy: 0.0012865
+  4-22: mean Fst: 0.055649; mean Phi_st: -0.022284; mean Fst': -0.00028688; mean Dxy: 0.0014542
+  4-23: mean Fst: 0.040265; mean Phi_st: 0.0097146; mean Fst': 0.0052244; mean Dxy: 0.0014128
+  4-24: mean Fst: 0.05892; mean Phi_st: 0.022804; mean Fst': 0.023515; mean Dxy: 0.0016518
+  4-25: mean Fst: 0.029091; mean Phi_st: 0.0025695; mean Fst': -0.0019711; mean Dxy: 0.0013632
+  4-26: mean Fst: 0.077316; mean Phi_st: -0.11313; mean Fst': 0.018717; mean Dxy: 0.0017511
+  4-27: mean Fst: 0.04255; mean Phi_st: 0.0099064; mean Fst': 0.0030615; mean Dxy: 0.0013683
+  4-28: mean Fst: 0.039209; mean Phi_st: 0.011082; mean Fst': 0.0046245; mean Dxy: 0.0013195
+  4-29: mean Fst: 0.049258; mean Phi_st: 0.028284; mean Fst': 0.016897; mean Dxy: 0.001549
+  4-30: mean Fst: 0.058506; mean Phi_st: 0.0089116; mean Fst': 0.0059336; mean Dxy: 0.0015861
+  4-31: mean Fst: 0.038816; mean Phi_st: 0.010479; mean Fst': 0.0039187; mean Dxy: 0.0013499
+  4-32: mean Fst: 0.07421; mean Phi_st: -0.10934; mean Fst': 0.015201; mean Dxy: 0.0018051
+  4-33: mean Fst: 0.036424; mean Phi_st: 0.0083179; mean Fst': 0.0033692; mean Dxy: 0.0012938
+  4-34: mean Fst: 0.040008; mean Phi_st: 0.012762; mean Fst': 0.0045363; mean Dxy: 0.001335
+  4-35: mean Fst: 0.059179; mean Phi_st: 0.026713; mean Fst': 0.0088446; mean Dxy: 0.0013934
+  4-36: mean Fst: 0.084346; mean Phi_st: 0.071198; mean Fst': 0.022988; mean Dxy: 0.0014906
+  4-37: mean Fst: 0.081955; mean Phi_st: -0.098817; mean Fst': 0.02232; mean Dxy: 0.0018354
+  4-38: mean Fst: 0.048302; mean Phi_st: 0.027378; mean Fst': 0.012235; mean Dxy: 0.001454
+  5-6: mean Fst: 0.15641; mean Phi_st: -0.03665; mean Fst': 0.062341; mean Dxy: 0.0025576
+  5-7: mean Fst: 0.16295; mean Phi_st: -0.0018496; mean Fst': 0.089003; mean Dxy: 0.0025797
+  5-8: mean Fst: 0.10988; mean Phi_st: -0.061149; mean Fst': 0.073155; mean Dxy: 0.0019693
+  5-9: mean Fst: 0.29741; mean Phi_st: 0.084993; mean Fst': 0.10521; mean Dxy: 0.0033762
+  5-10: mean Fst: 0.086505; mean Phi_st: -0.082776; mean Fst': 0.064698; mean Dxy: 0.0018993
+  5-11: mean Fst: 0.038091; mean Phi_st: -0.16506; mean Fst': 0.034889; mean Dxy: 0.0012445
+  5-12: mean Fst: 0.60471; mean Phi_st: 0.37972; mean Fst': 0.43439; mean Dxy: 0.0050444
+  5-13: mean Fst: 0.54967; mean Phi_st: 0.29139; mean Fst': 0.35762; mean Dxy: 0.0047613
+  5-14: mean Fst: 0.15473; mean Phi_st: -0.033929; mean Fst': 0.071359; mean Dxy: 0.0023777
+  5-15: mean Fst: 0.080509; mean Phi_st: -0.10381; mean Fst': 0.053362; mean Dxy: 0.0017761
+  5-16: mean Fst: 0.10969; mean Phi_st: -0.070896; mean Fst': 0.053012; mean Dxy: 0.0021274
+  5-17: mean Fst: 0.18708; mean Phi_st: -0.011861; mean Fst': 0.052544; mean Dxy: 0.0024302
+  5-18: mean Fst: 0.17131; mean Phi_st: 0.0028949; mean Fst': 0.089963; mean Dxy: 0.0025647
+  5-19: mean Fst: 0.079561; mean Phi_st: -0.096779; mean Fst': 0.055506; mean Dxy: 0.001825
+  5-20: mean Fst: 0.076385; mean Phi_st: -0.16191; mean Fst': 0.010034; mean Dxy: 0.0010084
+  5-21: mean Fst: 0.093284; mean Phi_st: -0.096362; mean Fst': 0.049208; mean Dxy: 0.0017868
+  5-22: mean Fst: 0.30308; mean Phi_st: 0.08212; mean Fst': 0.083634; mean Dxy: 0.0034311
+  5-23: mean Fst: 0.10074; mean Phi_st: -0.083447; mean Fst': 0.050614; mean Dxy: 0.0018255
+  5-24: mean Fst: 0.29644; mean Phi_st: 0.19421; mean Fst': 0.2274; mean Dxy: 0.0035602
+  5-25: mean Fst: 0.069074; mean Phi_st: -0.095761; mean Fst': 0.051796; mean Dxy: 0.0017725
+  5-26: mean Fst: 0.58817; mean Phi_st: 0.35616; mean Fst': 0.40835; mean Dxy: 0.004927
+  5-27: mean Fst: 0.098688; mean Phi_st: -0.088994; mean Fst': 0.052211; mean Dxy: 0.0019302
+  5-28: mean Fst: 0.08053; mean Phi_st: -0.10608; mean Fst': 0.049478; mean Dxy: 0.0017663
+  5-29: mean Fst: 0.12067; mean Phi_st: 0.0025421; mean Fst': 0.089413; mean Dxy: 0.002176
+  5-30: mean Fst: 0.19535; mean Phi_st: -0.0055612; mean Fst': 0.05984; mean Dxy: 0.0027061
+  5-31: mean Fst: 0.08485; mean Phi_st: -0.098843; mean Fst': 0.04887; mean Dxy: 0.001842
+  5-32: mean Fst: 0.60019; mean Phi_st: 0.37241; mean Fst': 0.42816; mean Dxy: 0.0050005
+  5-33: mean Fst: 0.07638; mean Phi_st: -0.11413; mean Fst': 0.047734; mean Dxy: 0.0017403
+  5-34: mean Fst: 0.075379; mean Phi_st: -0.1168; mean Fst': 0.038269; mean Dxy: 0.001723
+  5-35: mean Fst: 0.15546; mean Phi_st: -0.020306; mean Fst': 0.047036; mean Dxy: 0.0023407
+  5-36: mean Fst: 0.047222; mean Phi_st: -0.2057; mean Fst': -0.059175; mean Dxy: 0.0015111
+  5-37: mean Fst: 0.60226; mean Phi_st: 0.37666; mean Fst': 0.43011; mean Dxy: 0.005011
+  5-38: mean Fst: 0.099317; mean Phi_st: -0.05692; mean Fst': 0.066973; mean Dxy: 0.0020904
+  6-7: mean Fst: 0.034492; mean Phi_st: -0.031524; mean Fst': -0.02274; mean Dxy: 0.0027374
+  6-8: mean Fst: 0.038891; mean Phi_st: 0.0055974; mean Fst': -0.0056265; mean Dxy: 0.001806
+  6-9: mean Fst: 0.010189; mean Phi_st: -0.15537; mean Fst': -0.10817; mean Dxy: 0.002036
+  6-10: mean Fst: 0.023204; mean Phi_st: -0.021322; mean Fst': -0.019404; mean Dxy: 0.0013437
+  6-11: mean Fst: 0.026022; mean Phi_st: 0.021685; mean Fst': 0.0066588; mean Dxy: 0.0014579
+  6-12: mean Fst: 0.010967; mean Phi_st: -0.321; mean Fst': -0.24809; mean Dxy: 0.0024372
+  6-13: mean Fst: 0.035884; mean Phi_st: -0.19385; mean Fst': -0.056969; mean Dxy: 0.0017331
+  6-14: mean Fst: 0.062465; mean Phi_st: 0.025385; mean Fst': -0.0069157; mean Dxy: 0.0017972
+  6-15: mean Fst: 0.045081; mean Phi_st: 0.023825; mean Fst': -0.0035314; mean Dxy: 0.0014881
+  6-16: mean Fst: 0.022015; mean Phi_st: -0.040446; mean Fst': -0.031288; mean Dxy: 0.0020749
+  6-17: mean Fst: 0.042556; mean Phi_st: 0.0017273; mean Fst': 0.003375; mean Dxy: 0.0014252
+  6-18: mean Fst: 0.058433; mean Phi_st: 0.017148; mean Fst': -0.0085706; mean Dxy: 0.0021043
+  6-19: mean Fst: 0.057858; mean Phi_st: 0.044834; mean Fst': 0.021817; mean Dxy: 0.002149
+  6-20: mean Fst: 0.039388; mean Phi_st: 0.0062414; mean Fst': -0.0033298; mean Dxy: 0.0011316
+  6-21: mean Fst: 0.032784; mean Phi_st: -0.0059078; mean Fst': -0.012425; mean Dxy: 0.0019856
+  6-22: mean Fst: 0.014982; mean Phi_st: -0.13347; mean Fst': -0.014091; mean Dxy: 0.00047718
+  6-23: mean Fst: 0.1182; mean Phi_st: 0.15086; mean Fst': 0.10993; mean Dxy: 0.0024874
+  6-24: mean Fst: 0.079427; mean Phi_st: 0.051171; mean Fst': 0.030942; mean Dxy: 0.0018607
+  6-25: mean Fst: 0.039051; mean Phi_st: 0.02255; mean Fst': -0.00077148; mean Dxy: 0.0014187
+  6-26: mean Fst: 0.13573; mean Phi_st: 0.010946; mean Fst': -0.017395; mean Dxy: 0.0023624
+  6-27: mean Fst: 0.059048; mean Phi_st: 0.0374; mean Fst': 0.0059605; mean Dxy: 0.00080381
+  6-28: mean Fst: 0.044984; mean Phi_st: 0.017826; mean Fst': -0.0092378; mean Dxy: 0.0021168
+  6-29: mean Fst: 0.035422; mean Phi_st: -0.002227; mean Fst': -0.0040099; mean Dxy: 0.001844
+  6-30: mean Fst: 0.037619; mean Phi_st: -0.045244; mean Fst': -0.0085406; mean Dxy: 0.0024218
+  6-31: mean Fst: 0.037145; mean Phi_st: 0.0037271; mean Fst': -0.01052; mean Dxy: 0.0016375
+  6-32: mean Fst: 0.078055; mean Phi_st: -0.11682; mean Fst': -0.031571; mean Dxy: 0.0015786
+  6-33: mean Fst: 0.035318; mean Phi_st: 0.0025143; mean Fst': -0.0074612; mean Dxy: 0.0010635
+  6-34: mean Fst: 0.043712; mean Phi_st: 0.020489; mean Fst': -0.0020567; mean Dxy: 0.0015872
+  6-35: mean Fst: 0.081235; mean Phi_st: 0.06615; mean Fst': 0.0097819; mean Dxy: 0.0017389
+  6-36: mean Fst: 0.025387; mean Phi_st: -0.046927; mean Fst': -0.0043555; mean Dxy: 0.00048779
+  6-37: mean Fst: 0.066121; mean Phi_st: -0.14056; mean Fst': -0.057099; mean Dxy: 0.0018408
+  6-38: mean Fst: 0.039243; mean Phi_st: 0.010554; mean Fst': 0.0029237; mean Dxy: 0.0010216
+  7-8: mean Fst: 0.063697; mean Phi_st: 0.034307; mean Fst': 0.017161; mean Dxy: 0.0016589
+  7-9: mean Fst: 0.1152; mean Phi_st: 0.038985; mean Fst': 0.02631; mean Dxy: 0.002249
+  7-10: mean Fst: 0.059264; mean Phi_st: 0.033838; mean Fst': 0.018453; mean Dxy: 0.0016075
+  7-11: mean Fst: 0.034302; mean Phi_st: 0.028125; mean Fst': 0.012132; mean Dxy: 0.0012632
+  7-12: mean Fst: 0.1464; mean Phi_st: -0.026637; mean Fst': 0.047871; mean Dxy: 0.0024601
+  7-13: mean Fst: 0.12357; mean Phi_st: -0.066401; mean Fst': 0.012996; mean Dxy: 0.0024014
+  7-14: mean Fst: 0.084252; mean Phi_st: 0.034576; mean Fst': 0.018067; mean Dxy: 0.0018446
+  7-15: mean Fst: 0.053642; mean Phi_st: 0.022338; mean Fst': 0.012497; mean Dxy: 0.0015445
+  7-16: mean Fst: 0.068306; mean Phi_st: 0.02697; mean Fst': 0.013741; mean Dxy: 0.0018074
+  7-17: mean Fst: 0.091445; mean Phi_st: 0.057558; mean Fst': 0.036204; mean Dxy: 0.0017558
+  7-18: mean Fst: 0.088783; mean Phi_st: 0.043127; mean Fst': 0.023333; mean Dxy: 0.0019415
+  7-19: mean Fst: 0.054252; mean Phi_st: 0.023707; mean Fst': 0.013955; mean Dxy: 0.0015883
+  7-20: mean Fst: 0.046466; mean Phi_st: 0.0016066; mean Fst': 0.017605; mean Dxy: 0.0015907
+  7-21: mean Fst: 0.05616; mean Phi_st: 0.020441; mean Fst': 0.010747; mean Dxy: 0.001501
+  7-22: mean Fst: 0.11575; mean Phi_st: 0.049167; mean Fst': 0.032565; mean Dxy: 0.0019288
+  7-23: mean Fst: 0.06234; mean Phi_st: 0.025907; mean Fst': 0.014741; mean Dxy: 0.0015634
+  7-24: mean Fst: 0.1402; mean Phi_st: 0.11603; mean Fst': 0.082501; mean Dxy: 0.002352
+  7-25: mean Fst: 0.041937; mean Phi_st: 0.011401; mean Fst': 0.0042744; mean Dxy: 0.0014576
+  7-26: mean Fst: 0.14993; mean Phi_st: -0.013335; mean Fst': 0.051823; mean Dxy: 0.0024844
+  7-27: mean Fst: 0.062773; mean Phi_st: 0.023733; mean Fst': 0.012753; mean Dxy: 0.0016527
+  7-28: mean Fst: 0.05582; mean Phi_st: 0.022711; mean Fst': 0.013278; mean Dxy: 0.001555
+  7-29: mean Fst: 0.055323; mean Phi_st: 0.02198; mean Fst': 0.0067836; mean Dxy: 0.0017898
+  7-30: mean Fst: 0.094671; mean Phi_st: 0.034414; mean Fst': 0.0199; mean Dxy: 0.0019973
+  7-31: mean Fst: 0.058203; mean Phi_st: 0.026492; mean Fst': 0.014811; mean Dxy: 0.001596
+  7-32: mean Fst: 0.14419; mean Phi_st: -0.018564; mean Fst': 0.042382; mean Dxy: 0.0025262
+  7-33: mean Fst: 0.054278; mean Phi_st: 0.022092; mean Fst': 0.014202; mean Dxy: 0.0015472
+  7-34: mean Fst: 0.05625; mean Phi_st: 0.022965; mean Fst': 0.012023; mean Dxy: 0.0015783
+  7-35: mean Fst: 0.069938; mean Phi_st: 0.0081869; mean Fst': -0.0067858; mean Dxy: 0.0018152
+  7-36: mean Fst: -nan; mean Phi_st: -nan; mean Fst': -nan; mean Dxy: -nan
+  7-37: mean Fst: 0.15456; mean Phi_st: -0.0033511; mean Fst': 0.057622; mean Dxy: 0.0025933
+  7-38: mean Fst: 0.073827; mean Phi_st: 0.05549; mean Fst': 0.02965; mean Dxy: 0.0017718
+  8-9: mean Fst: 0.072346; mean Phi_st: 0.0031398; mean Fst': 0.016858; mean Dxy: 0.0017064
+  8-10: mean Fst: 0.041911; mean Phi_st: 0.018584; mean Fst': 0.0080341; mean Dxy: 0.0013789
+  8-11: mean Fst: 0.024747; mean Phi_st: 0.015769; mean Fst': 0.0047455; mean Dxy: 0.0011536
+  8-12: mean Fst: 0.080817; mean Phi_st: -0.098489; mean Fst': 0.030792; mean Dxy: 0.0019565
+  8-13: mean Fst: 0.079585; mean Phi_st: -0.097219; mean Fst': 0.0097641; mean Dxy: 0.0018959
+  8-14: mean Fst: 0.054699; mean Phi_st: 0.014944; mean Fst': 0.0078752; mean Dxy: 0.0014754
+  8-15: mean Fst: 0.039765; mean Phi_st: 0.013306; mean Fst': 0.0054933; mean Dxy: 0.0013388
+  8-16: mean Fst: 0.044158; mean Phi_st: 0.0094271; mean Fst': 0.0034933; mean Dxy: 0.0015303
+  8-17: mean Fst: 0.049264; mean Phi_st: 0.016158; mean Fst': 0.017707; mean Dxy: 0.0016108
+  8-18: mean Fst: 0.061692; mean Phi_st: 0.030353; mean Fst': 0.01954; mean Dxy: 0.0016522
+  8-19: mean Fst: 0.038721; mean Phi_st: 0.012823; mean Fst': 0.0061614; mean Dxy: 0.0013719
+  8-20: mean Fst: 0.039608; mean Phi_st: 0.011662; mean Fst': 0.0046525; mean Dxy: 0.00072896
+  8-21: mean Fst: 0.041075; mean Phi_st: 0.012955; mean Fst': 0.0066313; mean Dxy: 0.0013884
+  8-22: mean Fst: 0.055247; mean Phi_st: -0.02274; mean Fst': 0.0038748; mean Dxy: 0.0015667
+  8-23: mean Fst: 0.038734; mean Phi_st: 0.0061812; mean Fst': -0.00031521; mean Dxy: 0.0014508
+  8-24: mean Fst: 0.072339; mean Phi_st: 0.046385; mean Fst': 0.030294; mean Dxy: 0.0016218
+  8-25: mean Fst: 0.034204; mean Phi_st: 0.011858; mean Fst': 0.0039147; mean Dxy: 0.0013918
+  8-26: mean Fst: 0.074625; mean Phi_st: -0.1185; mean Fst': 0.017923; mean Dxy: 0.0017547
+  8-27: mean Fst: 0.049917; mean Phi_st: 0.022204; mean Fst': 0.010902; mean Dxy: 0.0014422
+  8-28: mean Fst: 0.04045; mean Phi_st: 0.013058; mean Fst': 0.0067342; mean Dxy: 0.0013256
+  8-29: mean Fst: 0.032289; mean Phi_st: -0.0070968; mean Fst': -0.010939; mean Dxy: 0.0015471
+  8-30: mean Fst: 0.064264; mean Phi_st: 0.020354; mean Fst': 0.010514; mean Dxy: 0.0015537
+  8-31: mean Fst: 0.042234; mean Phi_st: 0.018313; mean Fst': 0.0076125; mean Dxy: 0.0013706
+  8-32: mean Fst: 0.067139; mean Phi_st: -0.13347; mean Fst': -0.0083349; mean Dxy: 0.0017377
+  8-33: mean Fst: 0.039824; mean Phi_st: 0.014381; mean Fst': 0.007196; mean Dxy: 0.0013544
+  8-34: mean Fst: 0.04418; mean Phi_st: 0.020497; mean Fst': 0.0081387; mean Dxy: 0.001386
+  8-35: mean Fst: 0.057925; mean Phi_st: 0.02089; mean Fst': 0.007881; mean Dxy: 0.0015982
+  8-36: mean Fst: 0.024885; mean Phi_st: -0.047594; mean Fst': -0.0086759; mean Dxy: 0.0010987
+  8-37: mean Fst: 0.076864; mean Phi_st: -0.11391; mean Fst': 0.017516; mean Dxy: 0.0018413
+  8-38: mean Fst: 0.052831; mean Phi_st: 0.036608; mean Fst': 0.017578; mean Dxy: 0.0014965
+  9-10: mean Fst: 0.064628; mean Phi_st: 0.0043473; mean Fst': 0.014748; mean Dxy: 0.0017004
+  9-11: mean Fst: 0.027842; mean Phi_st: -0.03549; mean Fst': 0.011148; mean Dxy: 0.0011827
+  9-12: mean Fst: 0.26654; mean Phi_st: 0.032698; mean Fst': 0.026561; mean Dxy: 0.0032242
+  9-13: mean Fst: 0.25937; mean Phi_st: 0.022454; mean Fst': 0.0032863; mean Dxy: 0.0032624
+  9-14: mean Fst: 0.10634; mean Phi_st: 0.0095709; mean Fst': 0.010843; mean Dxy: 0.0020587
+  9-15: mean Fst: 0.060343; mean Phi_st: -0.0074526; mean Fst': 0.012385; mean Dxy: 0.0016212
+  9-16: mean Fst: 0.085862; mean Phi_st: 0.0089931; mean Fst': 0.0122; mean Dxy: 0.0019329
+  9-17: mean Fst: 0.066667; mean Phi_st: -0.025641; mean Fst': -0.0084034; mean Dxy: 0.0014252
+  9-18: mean Fst: 0.12306; mean Phi_st: 0.042409; mean Fst': 0.028096; mean Dxy: 0.0022238
+  9-19: mean Fst: 0.061346; mean Phi_st: -0.004213; mean Fst': 0.014096; mean Dxy: 0.0016561
+  9-20: mean Fst: 0.023109; mean Phi_st: -0.11148; mean Fst': -0.015421; mean Dxy: 0.00067269
+  9-21: mean Fst: 0.0738; mean Phi_st: 0.0078693; mean Fst': 0.023207; mean Dxy: 0.0016121
+  9-22: mean Fst: 0.18776; mean Phi_st: 0.068027; mean Fst': 0.048299; mean Dxy: 0.0025032
+  9-23: mean Fst: 0.064652; mean Phi_st: -0.014683; mean Fst': 0.0082807; mean Dxy: 0.0017126
+  9-24: mean Fst: 0.16249; mean Phi_st: 0.11376; mean Fst': 0.063609; mean Dxy: 0.0025952
+  9-25: mean Fst: 0.049042; mean Phi_st: -0.01355; mean Fst': 0.015636; mean Dxy: 0.0015227
+  9-26: mean Fst: 0.27661; mean Phi_st: 0.053919; mean Fst': 0.044463; mean Dxy: 0.0032999
+  9-27: mean Fst: 0.0719; mean Phi_st: -0.0073395; mean Fst': 0.0093785; mean Dxy: 0.001733
+  9-28: mean Fst: 0.062398; mean Phi_st: -0.0081291; mean Fst': 0.010299; mean Dxy: 0.0016492
+  9-29: mean Fst: 0.051038; mean Phi_st: -0.037303; mean Fst': 0.0043235; mean Dxy: 0.0016105
+  9-30: mean Fst: 0.13295; mean Phi_st: 0.01823; mean Fst': 0.010543; mean Dxy: 0.0023193
+  9-31: mean Fst: 0.065587; mean Phi_st: -0.0034172; mean Fst': 0.0099326; mean Dxy: 0.0016853
+  9-32: mean Fst: 0.2617; mean Phi_st: 0.033064; mean Fst': 0.015263; mean Dxy: 0.0032529
+  9-33: mean Fst: 0.061092; mean Phi_st: -0.0072101; mean Fst': 0.012272; mean Dxy: 0.0016071
+  9-34: mean Fst: 0.063743; mean Phi_st: -0.0081541; mean Fst': 0.015665; mean Dxy: 0.0016438
+  9-35: mean Fst: 0.10887; mean Phi_st: 0.017362; mean Fst': 0.018282; mean Dxy: 0.0019752
+  9-36: mean Fst: 0.054545; mean Phi_st: -0.068107; mean Fst': -0.10855; mean Dxy: 0.0028504
+  9-37: mean Fst: 0.27654; mean Phi_st: 0.060052; mean Fst': 0.047127; mean Dxy: 0.0033207
+  9-38: mean Fst: 0.081736; mean Phi_st: 0.033504; mean Fst': 0.026102; mean Dxy: 0.0019104
+  10-11: mean Fst: 0.025161; mean Phi_st: 0.017114; mean Fst': 0.0054422; mean Dxy: 0.001122
+  10-12: mean Fst: 0.068989; mean Phi_st: -0.11667; mean Fst': 0.019376; mean Dxy: 0.001778
+  10-13: mean Fst: 0.060768; mean Phi_st: -0.12671; mean Fst': 0.011806; mean Dxy: 0.0017816
+  10-14: mean Fst: 0.051468; mean Phi_st: 0.018071; mean Fst': 0.0081795; mean Dxy: 0.0014766
+  10-15: mean Fst: 0.03952; mean Phi_st: 0.017086; mean Fst': 0.0066832; mean Dxy: 0.0013562
+  10-16: mean Fst: 0.047031; mean Phi_st: 0.01976; mean Fst': 0.0090267; mean Dxy: 0.0015055
+  10-17: mean Fst: 0.026479; mean Phi_st: -0.023297; mean Fst': -0.0031689; mean Dxy: 0.00073409
+  10-18: mean Fst: 0.053778; mean Phi_st: 0.021435; mean Fst': 0.011678; mean Dxy: 0.001521
+  10-19: mean Fst: 0.039716; mean Phi_st: 0.017722; mean Fst': 0.0073872; mean Dxy: 0.0014027
+  10-20: mean Fst: 0.066925; mean Phi_st: 0.066791; mean Fst': 0.011544; mean Dxy: 0.00099
+  10-21: mean Fst: 0.037486; mean Phi_st: 0.010505; mean Fst': 0.0045757; mean Dxy: 0.0013105
+  10-22: mean Fst: 0.049058; mean Phi_st: -0.034451; mean Fst': -0.0042751; mean Dxy: 0.0015199
+  10-23: mean Fst: 0.040285; mean Phi_st: 0.014291; mean Fst': 0.0053931; mean Dxy: 0.0013878
+  10-24: mean Fst: 0.072934; mean Phi_st: 0.053977; mean Fst': 0.03921; mean Dxy: 0.0016981
+  10-25: mean Fst: 0.032883; mean Phi_st: 0.01195; mean Fst': 0.0025531; mean Dxy: 0.0013163
+  10-26: mean Fst: 0.077265; mean Phi_st: -0.097468; mean Fst': 0.033625; mean Dxy: 0.0018304
+  10-27: mean Fst: 0.042792; mean Phi_st: 0.015753; mean Fst': 0.0061847; mean Dxy: 0.0013942
+  10-28: mean Fst: 0.03979; mean Phi_st: 0.015708; mean Fst': 0.0063793; mean Dxy: 0.0013615
+  10-29: mean Fst: 0.054816; mean Phi_st: 0.034744; mean Fst': 0.027613; mean Dxy: 0.0015621
+  10-30: mean Fst: 0.054058; mean Phi_st: 0.0096725; mean Fst': 0.007472; mean Dxy: 0.0015975
+  10-31: mean Fst: 0.040941; mean Phi_st: 0.017793; mean Fst': 0.0065179; mean Dxy: 0.0013659
+  10-32: mean Fst: 0.070907; mean Phi_st: -0.10408; mean Fst': 0.025662; mean Dxy: 0.0018229
+  10-33: mean Fst: 0.038487; mean Phi_st: 0.014755; mean Fst': 0.0059478; mean Dxy: 0.0013615
+  10-34: mean Fst: 0.042902; mean Phi_st: 0.021147; mean Fst': 0.0077334; mean Dxy: 0.0013281
+  10-35: mean Fst: 0.051866; mean Phi_st: 0.014444; mean Fst': 0.00422; mean Dxy: 0.0015206
+  10-36: mean Fst: 0.0088889; mean Phi_st: -0.078629; mean Fst': -0.016877; mean Dxy: 0.0015341
+  10-37: mean Fst: 0.081391; mean Phi_st: -0.090054; mean Fst': 0.032563; mean Dxy: 0.0018986
+  10-38: mean Fst: 0.051433; mean Phi_st: 0.035769; mean Fst': 0.017289; mean Dxy: 0.0014959
+  11-12: mean Fst: 0.029738; mean Phi_st: -0.17037; mean Fst': 0.012032; mean Dxy: 0.001286
+  11-13: mean Fst: 0.02472; mean Phi_st: -0.18657; mean Fst': 0.0035096; mean Dxy: 0.0012291
+  11-14: mean Fst: 0.029155; mean Phi_st: 0.015978; mean Fst': 0.0066317; mean Dxy: 0.0011004
+  11-15: mean Fst: 0.02625; mean Phi_st: 0.019264; mean Fst': 0.0049018; mean Dxy: 0.001099
+  11-16: mean Fst: 0.028013; mean Phi_st: 0.020554; mean Fst': 0.0072801; mean Dxy: 0.00122
+  11-17: mean Fst: 0.018728; mean Phi_st: -0.0050849; mean Fst': 0.017791; mean Dxy: 0.00076744
+  11-18: mean Fst: 0.028021; mean Phi_st: 0.014967; mean Fst': 0.010937; mean Dxy: 0.0012556
+  11-19: mean Fst: 0.024781; mean Phi_st: 0.015913; mean Fst': 0.0062851; mean Dxy: 0.0011715
+  11-20: mean Fst: 0.01232; mean Phi_st: -0.01313; mean Fst': -0.0015931; mean Dxy: 0.00072215
+  11-21: mean Fst: 0.021579; mean Phi_st: 0.0080138; mean Fst': 0.0025622; mean Dxy: 0.0011022
+  11-22: mean Fst: 0.019208; mean Phi_st: -0.056648; mean Fst': -0.0029596; mean Dxy: 0.0010904
+  11-23: mean Fst: 0.024397; mean Phi_st: 0.014052; mean Fst': 0.0071323; mean Dxy: 0.0012727
+  11-24: mean Fst: 0.032897; mean Phi_st: 0.024603; mean Fst': 0.026725; mean Dxy: 0.0012813
+  11-25: mean Fst: 0.019757; mean Phi_st: 0.0089446; mean Fst': 0.0022505; mean Dxy: 0.0011703
+  11-26: mean Fst: 0.033645; mean Phi_st: -0.16489; mean Fst': 0.023171; mean Dxy: 0.0013092
+  11-27: mean Fst: 0.031806; mean Phi_st: 0.029862; mean Fst': 0.0066; mean Dxy: 0.0011423
+  11-28: mean Fst: 0.026729; mean Phi_st: 0.020403; mean Fst': 0.0065746; mean Dxy: 0.0011261
+  11-29: mean Fst: 0.012667; mean Phi_st: -0.014496; mean Fst': -0.0057056; mean Dxy: 0.001268
+  11-30: mean Fst: 0.027991; mean Phi_st: 0.0021635; mean Fst': 0.004022; mean Dxy: 0.0011225
+  11-31: mean Fst: 0.025915; mean Phi_st: 0.018779; mean Fst': 0.0048952; mean Dxy: 0.0011276
+  11-32: mean Fst: 0.035851; mean Phi_st: -0.16986; mean Fst': 0.0090057; mean Dxy: 0.0013164
+  11-33: mean Fst: 0.024485; mean Phi_st: 0.015659; mean Fst': 0.0041741; mean Dxy: 0.0011206
+  11-34: mean Fst: 0.024616; mean Phi_st: 0.016359; mean Fst': 0.0030541; mean Dxy: 0.0011227
+  11-35: mean Fst: 0.028062; mean Phi_st: 0.010797; mean Fst': 0.0067536; mean Dxy: 0.0010937
+  11-36: mean Fst: 0.015167; mean Phi_st: -0.026775; mean Fst': 0.0015974; mean Dxy: 0.0015336
+  11-37: mean Fst: 0.035664; mean Phi_st: -0.16223; mean Fst': 0.021752; mean Dxy: 0.0013341
+  11-38: mean Fst: 0.033657; mean Phi_st: 0.033771; mean Fst': 0.011893; mean Dxy: 0.0011572
+  12-13: mean Fst: 0.48756; mean Phi_st: 0.17368; mean Fst': 0.28901; mean Dxy: 0.0045231
+  12-14: mean Fst: 0.12669; mean Phi_st: -0.079959; mean Fst': 0.013414; mean Dxy: 0.0022672
+  12-15: mean Fst: 0.065934; mean Phi_st: -0.13096; mean Fst': 0.017782; mean Dxy: 0.0016922
+  12-16: mean Fst: 0.10058; mean Phi_st: -0.08193; mean Fst': 0.023454; mean Dxy: 0.0021332
+  12-17: mean Fst: 0.061148; mean Phi_st: -0.16283; mean Fst': -0.047005; mean Dxy: 0.0020251
+  12-18: mean Fst: 0.15138; mean Phi_st: -0.023747; mean Fst': 0.041673; mean Dxy: 0.0024841
+  12-19: mean Fst: 0.065149; mean Phi_st: -0.12453; mean Fst': 0.019984; mean Dxy: 0.0017036
+  12-20: mean Fst: 0.0097182; mean Phi_st: -0.32801; mean Fst': -0.10419; mean Dxy: 0.0010084
+  12-21: mean Fst: 0.071355; mean Phi_st: -0.12281; mean Fst': 0.0068048; mean Dxy: 0.0017045
+  12-22: mean Fst: 0.2625; mean Phi_st: 0.0071146; mean Fst': -0.052867; mean Dxy: 0.003283
+  12-23: mean Fst: 0.074527; mean Phi_st: -0.10852; mean Fst': 0.0072081; mean Dxy: 0.0018199
+  12-24: mean Fst: 0.26495; mean Phi_st: 0.1355; mean Fst': 0.14875; mean Dxy: 0.003342
+  12-25: mean Fst: 0.05054; mean Phi_st: -0.14974; mean Fst': -0.00067376; mean Dxy: 0.0016255
+  12-26: mean Fst: 0.52381; mean Phi_st: 0.23462; mean Fst': 0.33681; mean Dxy: 0.0047017
+  12-27: mean Fst: 0.085727; mean Phi_st: -0.10795; mean Fst': 0.018367; mean Dxy: 0.0018909
+  12-28: mean Fst: 0.065987; mean Phi_st: -0.12912; mean Fst': 0.013991; mean Dxy: 0.0016862
+  12-29: mean Fst: 0.074202; mean Phi_st: -0.1143; mean Fst': 0.020952; mean Dxy: 0.0020859
+  12-30: mean Fst: 0.18001; mean Phi_st: -0.018029; mean Fst': 0.023314; mean Dxy: 0.002704
+  12-31: mean Fst: 0.066131; mean Phi_st: -0.12813; mean Fst': 0.013395; mean Dxy: 0.0017264
+  12-32: mean Fst: 0.51836; mean Phi_st: 0.23157; mean Fst': 0.3235; mean Dxy: 0.0046414
+  12-33: mean Fst: 0.064336; mean Phi_st: -0.13519; mean Fst': 0.016257; mean Dxy: 0.0016465
+  12-34: mean Fst: 0.068931; mean Phi_st: -0.12127; mean Fst': 0.016819; mean Dxy: 0.0017118
+  12-35: mean Fst: 0.072221; mean Phi_st: -0.18423; mean Fst': -0.082367; mean Dxy: 0.0019098
+  12-36: mean Fst: 0.027778; mean Phi_st: -0.31765; mean Fst': -0.064133; mean Dxy: 0.00088444
+  12-37: mean Fst: 0.55048; mean Phi_st: 0.28768; mean Fst': 0.36377; mean Dxy: 0.0047773
+  12-38: mean Fst: 0.086668; mean Phi_st: -0.07621; mean Fst': 0.032516; mean Dxy: 0.0020242
+  13-14: mean Fst: 0.12148; mean Phi_st: -0.090155; mean Fst': -0.0079426; mean Dxy: 0.0022405
+  13-15: mean Fst: 0.057; mean Phi_st: -0.14093; mean Fst': 0.0049601; mean Dxy: 0.0016765
+  13-16: mean Fst: 0.091721; mean Phi_st: -0.097976; mean Fst': 0.0083507; mean Dxy: 0.0020674
+  13-17: mean Fst: 0.18826; mean Phi_st: 0.082012; mean Fst': -0.087865; mean Dxy: 0.0031218
+  13-18: mean Fst: 0.12934; mean Phi_st: -0.055724; mean Fst': 0.0050432; mean Dxy: 0.0023501
+  13-19: mean Fst: 0.057591; mean Phi_st: -0.13719; mean Fst': 0.0087088; mean Dxy: 0.0017007
+  13-20: mean Fst: 0.054549; mean Phi_st: -0.1367; mean Fst': -0.096831; mean Dxy: 0.0021498
+  13-21: mean Fst: 0.068477; mean Phi_st: -0.11395; mean Fst': 0.004901; mean Dxy: 0.0017535
+  13-22: mean Fst: 0.2541; mean Phi_st: 0.029512; mean Fst': -0.031074; mean Dxy: 0.003261
+  13-23: mean Fst: 0.060156; mean Phi_st: -0.14559; mean Fst': -0.019468; mean Dxy: 0.0017067
+  13-24: mean Fst: 0.1733; mean Phi_st: 0.0088329; mean Fst': 0.0013495; mean Dxy: 0.0029865
+  13-25: mean Fst: 0.045444; mean Phi_st: -0.1421; mean Fst': -0.0004665; mean Dxy: 0.0016178
+  13-26: mean Fst: 0.51449; mean Phi_st: 0.22654; mean Fst': 0.31693; mean Dxy: 0.0046353
+  13-27: mean Fst: 0.070916; mean Phi_st: -0.13332; mean Fst': -0.0027397; mean Dxy: 0.001776
+  13-28: mean Fst: 0.058836; mean Phi_st: -0.14442; mean Fst': 0.0043121; mean Dxy: 0.0016389
+  13-29: mean Fst: 0.039719; mean Phi_st: -0.17589; mean Fst': -0.044433; mean Dxy: 0.0016695
+  13-30: mean Fst: 0.16516; mean Phi_st: -0.051083; mean Fst': -0.016005; mean Dxy: 0.0026379
+  13-31: mean Fst: 0.06233; mean Phi_st: -0.13628; mean Fst': 0.0028239; mean Dxy: 0.0017138
+  13-32: mean Fst: 0.50639; mean Phi_st: 0.20894; mean Fst': 0.31022; mean Dxy: 0.0046054
+  13-33: mean Fst: 0.052705; mean Phi_st: -0.15392; mean Fst': 0.0027864; mean Dxy: 0.0015903
+  13-34: mean Fst: 0.065629; mean Phi_st: -0.13248; mean Fst': -0.00067979; mean Dxy: 0.0017077
+  13-35: mean Fst: 0.11164; mean Phi_st: -0.097176; mean Fst': -0.016217; mean Dxy: 0.0022461
+  13-36: mean Fst: 0.099074; mean Phi_st: -0.14123; mean Fst': -0.085402; mean Dxy: 0.0019299
+  13-37: mean Fst: 0.52227; mean Phi_st: 0.23887; mean Fst': 0.32794; mean Dxy: 0.0046547
+  13-38: mean Fst: 0.08113; mean Phi_st: -0.081029; mean Fst': 0.026025; mean Dxy: 0.0020115
+  14-15: mean Fst: 0.047596; mean Phi_st: 0.0084774; mean Fst': 0.0053989; mean Dxy: 0.0014168
+  14-16: mean Fst: 0.066005; mean Phi_st: 0.017756; mean Fst': 0.0089898; mean Dxy: 0.0016516
+  14-17: mean Fst: 0.054799; mean Phi_st: -0.013874; mean Fst': 0.01306; mean Dxy: 0.0021378
+  14-18: mean Fst: 0.08375; mean Phi_st: 0.026579; mean Fst': 0.01298; mean Dxy: 0.001795
+  14-19: mean Fst: 0.049243; mean Phi_st: 0.012541; mean Fst': 0.0069612; mean Dxy: 0.0014515
+  14-20: mean Fst: 0.013503; mean Phi_st: -0.075076; mean Fst': -0.023357; mean Dxy: 0.0013921
+  14-21: mean Fst: 0.052436; mean Phi_st: 0.0092355; mean Fst': 0.0023769; mean Dxy: 0.0013645
+  14-22: mean Fst: 0.092697; mean Phi_st: -0.011361; mean Fst': -0.0067673; mean Dxy: 0.0018781
+  14-23: mean Fst: 0.055689; mean Phi_st: 0.011774; mean Fst': 0.006019; mean Dxy: 0.0013445
+  14-24: mean Fst: 0.12181; mean Phi_st: 0.09432; mean Fst': 0.065711; mean Dxy: 0.0021566
+  14-25: mean Fst: 0.042382; mean Phi_st: 0.011595; mean Fst': 0.0052091; mean Dxy: 0.0013674
+  14-26: mean Fst: 0.13912; mean Phi_st: -0.050501; mean Fst': 0.033335; mean Dxy: 0.0023261
+  14-27: mean Fst: 0.057874; mean Phi_st: 0.010904; mean Fst': 0.0066325; mean Dxy: 0.0015063
+  14-28: mean Fst: 0.049153; mean Phi_st: 0.006942; mean Fst': 0.0035284; mean Dxy: 0.0014475
+  14-29: mean Fst: 0.058931; mean Phi_st: 0.010018; mean Fst': 0.030566; mean Dxy: 0.0016725
+  14-30: mean Fst: 0.091259; mean Phi_st: 0.017114; mean Fst': 0.010807; mean Dxy: 0.0018514
+  14-31: mean Fst: 0.052537; mean Phi_st: 0.012546; mean Fst': 0.0066446; mean Dxy: 0.0014797
+  14-32: mean Fst: 0.13322; mean Phi_st: -0.061393; mean Fst': 0.020935; mean Dxy: 0.0023053
+  14-33: mean Fst: 0.049311; mean Phi_st: 0.010596; mean Fst': 0.0071241; mean Dxy: 0.0014287
+  14-34: mean Fst: 0.052221; mean Phi_st: 0.013828; mean Fst': 0.0061726; mean Dxy: 0.0014233
+  14-35: mean Fst: 0.091382; mean Phi_st: 0.041583; mean Fst': 0.025293; mean Dxy: 0.0019135
+  14-36: mean Fst: -nan; mean Phi_st: -nan; mean Fst': -nan; mean Dxy: -nan
+  14-37: mean Fst: 0.13642; mean Phi_st: -0.052483; mean Fst': 0.016437; mean Dxy: 0.0023441
+  14-38: mean Fst: 0.06833; mean Phi_st: 0.042812; mean Fst': 0.020577; mean Dxy: 0.0016627
+  15-16: mean Fst: 0.043593; mean Phi_st: 0.012436; mean Fst': 0.0066385; mean Dxy: 0.0014454
+  15-17: mean Fst: 0.023992; mean Phi_st: -0.03145; mean Fst': -0.0047875; mean Dxy: 0.00085633
+  15-18: mean Fst: 0.050605; mean Phi_st: 0.014415; mean Fst': 0.0092452; mean Dxy: 0.0014735
+  15-19: mean Fst: 0.037172; mean Phi_st: 0.012448; mean Fst': 0.004704; mean Dxy: 0.0013581
+  15-20: mean Fst: 0.030707; mean Phi_st: -0.0094442; mean Fst': -0.0017348; mean Dxy: 0.0010405
+  15-21: mean Fst: 0.03622; mean Phi_st: 0.0073355; mean Fst': 0.0033986; mean Dxy: 0.0011904
+  15-22: mean Fst: 0.041929; mean Phi_st: -0.049194; mean Fst': -0.0077268; mean Dxy: 0.0014633
+  15-23: mean Fst: 0.03705; mean Phi_st: 0.0065138; mean Fst': 0.0018591; mean Dxy: 0.0012571
+  15-24: mean Fst: 0.070035; mean Phi_st: 0.041692; mean Fst': 0.034728; mean Dxy: 0.0015769
+  15-25: mean Fst: 0.033558; mean Phi_st: 0.011934; mean Fst': 0.0022561; mean Dxy: 0.0013203
+  15-26: mean Fst: 0.069611; mean Phi_st: -0.12117; mean Fst': 0.025292; mean Dxy: 0.0017033
+  15-27: mean Fst: 0.041248; mean Phi_st: 0.011917; mean Fst': 0.0048216; mean Dxy: 0.0013428
+  15-28: mean Fst: 0.037979; mean Phi_st: 0.011966; mean Fst': 0.0050604; mean Dxy: 0.0013345
+  15-29: mean Fst: 0.040176; mean Phi_st: 0.011592; mean Fst': 0.00029964; mean Dxy: 0.001354
+  15-30: mean Fst: 0.051847; mean Phi_st: 0.004118; mean Fst': 0.0058672; mean Dxy: 0.0015256
+  15-31: mean Fst: 0.038622; mean Phi_st: 0.012922; mean Fst': 0.0048346; mean Dxy: 0.001333
+  15-32: mean Fst: 0.066384; mean Phi_st: -0.12349; mean Fst': 0.019606; mean Dxy: 0.001719
+  15-33: mean Fst: 0.037711; mean Phi_st: 0.012795; mean Fst': 0.0053173; mean Dxy: 0.0013234
+  15-34: mean Fst: 0.039477; mean Phi_st: 0.013244; mean Fst': 0.0040234; mean Dxy: 0.0013665
+  15-35: mean Fst: 0.048332; mean Phi_st: 0.0038354; mean Fst': 0.0037701; mean Dxy: 0.0011928
+  15-36: mean Fst: 0.042955; mean Phi_st: -0.0022365; mean Fst': 0.0036329; mean Dxy: 0.001693
+  15-37: mean Fst: 0.073341; mean Phi_st: -0.11289; mean Fst': 0.023216; mean Dxy: 0.0017754
+  15-38: mean Fst: 0.04892; mean Phi_st: 0.030773; mean Fst': 0.015138; mean Dxy: 0.0014423
+  16-17: mean Fst: 0.067735; mean Phi_st: 0.030516; mean Fst': 0.014841; mean Dxy: 0.001892
+  16-18: mean Fst: 0.068314; mean Phi_st: 0.023127; mean Fst': 0.013157; mean Dxy: 0.001732
+  16-19: mean Fst: 0.044009; mean Phi_st: 0.014005; mean Fst': 0.0063572; mean Dxy: 0.0014678
+  16-20: mean Fst: 0.036173; mean Phi_st: -0.0045233; mean Fst': -0.0014252; mean Dxy: 0.0010007
+  16-21: mean Fst: 0.047858; mean Phi_st: 0.015767; mean Fst': 0.0081286; mean Dxy: 0.001459
+  16-22: mean Fst: 0.066959; mean Phi_st: -0.026211; mean Fst': 0.0040444; mean Dxy: 0.0017992
+  16-23: mean Fst: 0.051288; mean Phi_st: 0.018864; mean Fst': 0.011023; mean Dxy: 0.0015339
+  16-24: mean Fst: 0.089752; mean Phi_st: 0.060329; mean Fst': 0.04653; mean Dxy: 0.0019499
+  16-25: mean Fst: 0.040505; mean Phi_st: 0.017428; mean Fst': 0.0066285; mean Dxy: 0.0015047
+  16-26: mean Fst: 0.10666; mean Phi_st: -0.068572; mean Fst': 0.0323; mean Dxy: 0.0021416
+  16-27: mean Fst: 0.050492; mean Phi_st: 0.011934; mean Fst': 0.0062078; mean Dxy: 0.0015454
+  16-28: mean Fst: 0.044593; mean Phi_st: 0.011178; mean Fst': 0.0053791; mean Dxy: 0.0014651
+  16-29: mean Fst: 0.03434; mean Phi_st: -0.011866; mean Fst': -0.011197; mean Dxy: 0.0018392
+  16-30: mean Fst: 0.068118; mean Phi_st: 0.0059922; mean Fst': 0.0048494; mean Dxy: 0.0018084
+  16-31: mean Fst: 0.045629; mean Phi_st: 0.01283; mean Fst': 0.0052165; mean Dxy: 0.0014771
+  16-32: mean Fst: 0.1056; mean Phi_st: -0.072548; mean Fst': 0.02624; mean Dxy: 0.0021492
+  16-33: mean Fst: 0.042393; mean Phi_st: 0.0097033; mean Fst': 0.0050073; mean Dxy: 0.0014324
+  16-34: mean Fst: 0.050038; mean Phi_st: 0.021495; mean Fst': 0.010447; mean Dxy: 0.0014958
+  16-35: mean Fst: 0.073023; mean Phi_st: 0.032621; mean Fst': 0.014671; mean Dxy: 0.0019234
+  16-36: mean Fst: 0.019775; mean Phi_st: -0.075319; mean Fst': -0.019251; mean Dxy: 0.0012925
+  16-37: mean Fst: 0.10981; mean Phi_st: -0.063576; mean Fst': 0.027108; mean Dxy: 0.002184
+  16-38: mean Fst: 0.059789; mean Phi_st: 0.038254; mean Fst': 0.018135; mean Dxy: 0.0016376
+  17-18: mean Fst: 0.095625; mean Phi_st: 0.062977; mean Fst': 0.055007; mean Dxy: 0.0021085
+  17-19: mean Fst: 0.046077; mean Phi_st: 0.010326; mean Fst': 0.013107; mean Dxy: 0.0011112
+  17-20: mean Fst: 0.039609; mean Phi_st: -0.010806; mean Fst': -0.017755; mean Dxy: 0.0016339
+  17-21: mean Fst: 0.03998; mean Phi_st: -0.004064; mean Fst': -0.0035035; mean Dxy: 0.001693
+  17-22: mean Fst: 0.055814; mean Phi_st: -0.063782; mean Fst': -0.057848; mean Dxy: 0.0020586
+  17-23: mean Fst: 0.09252; mean Phi_st: 0.066636; mean Fst': 0.08087; mean Dxy: 0.0019735
+  17-24: mean Fst: 0.077716; mean Phi_st: 0.037912; mean Fst': 0.0036141; mean Dxy: 0.0022667
+  17-25: mean Fst: 0.042109; mean Phi_st: 0.020529; mean Fst': 0.010449; mean Dxy: 0.0011921
+  17-26: mean Fst: 0.084416; mean Phi_st: -0.17329; mean Fst': -0.2084; mean Dxy: 0.0026199
+  17-27: mean Fst: 0.048805; mean Phi_st: 0.0050791; mean Fst': 0.0018164; mean Dxy: 0.00068113
+  17-28: mean Fst: 0.034227; mean Phi_st: -0.012501; mean Fst': -0.0025178; mean Dxy: 0.00089916
+  17-29: mean Fst: 0.091096; mean Phi_st: 0.086607; mean Fst': 0.057394; mean Dxy: 0.0021472
+  17-30: mean Fst: 0.21228; mean Phi_st: 0.2453; mean Fst': 0.21277; mean Dxy: 0.002835
+  17-31: mean Fst: 0.034324; mean Phi_st: -0.0095056; mean Fst': -0.0036683; mean Dxy: 0.0010548
+  17-32: mean Fst: 0.19325; mean Phi_st: 0.089885; mean Fst': 0.11071; mean Dxy: 0.0031288
+  17-33: mean Fst: 0.029954; mean Phi_st: -0.017662; mean Fst': -0.002334; mean Dxy: 0.00074666
+  17-34: mean Fst: 0.038936; mean Phi_st: -0.0025207; mean Fst': 0.0021841; mean Dxy: 0.0012379
+  17-35: mean Fst: 0.077662; mean Phi_st: 0.042478; mean Fst': 0.0085228; mean Dxy: 0.0015516
+  17-36: mean Fst: 0.01; mean Phi_st: -0.10414; mean Fst': -0.041936; mean Dxy: 0.0019458
+  17-37: mean Fst: 0.080191; mean Phi_st: -0.15808; mean Fst': -0.081633; mean Dxy: 0.0020304
+  17-38: mean Fst: 0.053515; mean Phi_st: 0.0202; mean Fst': 0.01515; mean Dxy: 0.0015538
+  18-19: mean Fst: 0.050662; mean Phi_st: 0.015578; mean Fst': 0.010159; mean Dxy: 0.0014971
+  18-20: mean Fst: 0.060199; mean Phi_st: 0.028635; mean Fst': 0.0029206; mean Dxy: 0.0013102
+  18-21: mean Fst: 0.056144; mean Phi_st: 0.019702; mean Fst': 0.011658; mean Dxy: 0.0014907
+  18-22: mean Fst: 0.094776; mean Phi_st: 0.0041701; mean Fst': 0.0046454; mean Dxy: 0.0018551
+  18-23: mean Fst: 0.06074; mean Phi_st: 0.024612; mean Fst': 0.01355; mean Dxy: 0.0015212
+  18-24: mean Fst: 0.10323; mean Phi_st: 0.068525; mean Fst': 0.043664; mean Dxy: 0.0021476
+  18-25: mean Fst: 0.044003; mean Phi_st: 0.017756; mean Fst': 0.01085; mean Dxy: 0.0015277
+  18-26: mean Fst: 0.15136; mean Phi_st: -0.020283; mean Fst': 0.04645; mean Dxy: 0.0024754
+  18-27: mean Fst: 0.061323; mean Phi_st: 0.017813; mean Fst': 0.011127; mean Dxy: 0.001585
+  18-28: mean Fst: 0.054487; mean Phi_st: 0.017983; mean Fst': 0.011205; mean Dxy: 0.0015042
+  18-29: mean Fst: 0.068755; mean Phi_st: 0.032328; mean Fst': 0.018898; mean Dxy: 0.0020472
+  18-30: mean Fst: 0.095926; mean Phi_st: 0.030065; mean Fst': 0.015726; mean Dxy: 0.0019776
+  18-31: mean Fst: 0.055582; mean Phi_st: 0.019361; mean Fst': 0.01025; mean Dxy: 0.0015234
+  18-32: mean Fst: 0.15682; mean Phi_st: -0.014477; mean Fst': 0.042947; mean Dxy: 0.0025339
+  18-33: mean Fst: 0.050915; mean Phi_st: 0.014333; mean Fst': 0.0098364; mean Dxy: 0.0014625
+  18-34: mean Fst: 0.05679; mean Phi_st: 0.02391; mean Fst': 0.014124; mean Dxy: 0.0015324
+  18-35: mean Fst: 0.076972; mean Phi_st: 0.021266; mean Fst': 0.0084432; mean Dxy: 0.0017838
+  18-36: mean Fst: 0.046154; mean Phi_st: -0.042857; mean Fst': -0.02027; mean Dxy: 0.0026609
+  18-37: mean Fst: 0.15532; mean Phi_st: -0.014183; mean Fst': 0.035511; mean Dxy: 0.002542
+  18-38: mean Fst: 0.070398; mean Phi_st: 0.047979; mean Fst': 0.024107; mean Dxy: 0.0017094
+  19-20: mean Fst: 0.033143; mean Phi_st: 0.00067437; mean Fst': -0.0017877; mean Dxy: 0.00097286
+  19-21: mean Fst: 0.034958; mean Phi_st: 0.0059684; mean Fst': 0.0017811; mean Dxy: 0.0012622
+  19-22: mean Fst: 0.052958; mean Phi_st: -0.025873; mean Fst': 0.0017652; mean Dxy: 0.0014797
+  19-23: mean Fst: 0.036789; mean Phi_st: 0.0074754; mean Fst': 0.0023578; mean Dxy: 0.0013205
+  19-24: mean Fst: 0.072579; mean Phi_st: 0.045826; mean Fst': 0.039278; mean Dxy: 0.0016662
+  19-25: mean Fst: 0.034511; mean Phi_st: 0.013744; mean Fst': 0.0049805; mean Dxy: 0.0013784
+  19-26: mean Fst: 0.071041; mean Phi_st: -0.11127; mean Fst': 0.026251; mean Dxy: 0.0017513
+  19-27: mean Fst: 0.041276; mean Phi_st: 0.012736; mean Fst': 0.0048925; mean Dxy: 0.0013823
+  19-28: mean Fst: 0.038009; mean Phi_st: 0.012173; mean Fst': 0.0052218; mean Dxy: 0.0013735
+  19-29: mean Fst: 0.039837; mean Phi_st: 0.0090327; mean Fst': 0.009113; mean Dxy: 0.0014681
+  19-30: mean Fst: 0.051498; mean Phi_st: 0.0040395; mean Fst': 0.0072188; mean Dxy: 0.0015158
+  19-31: mean Fst: 0.037702; mean Phi_st: 0.011642; mean Fst': 0.0039304; mean Dxy: 0.0013564
+  19-32: mean Fst: 0.066732; mean Phi_st: -0.11719; mean Fst': 0.02093; mean Dxy: 0.0017761
+  19-33: mean Fst: 0.036553; mean Phi_st: 0.010892; mean Fst': 0.0043285; mean Dxy: 0.0013704
+  19-34: mean Fst: 0.042776; mean Phi_st: 0.019759; mean Fst': 0.0087791; mean Dxy: 0.0013713
+  19-35: mean Fst: 0.050456; mean Phi_st: 0.011254; mean Fst': 0.0095817; mean Dxy: 0.0014222
+  19-36: mean Fst: 0.083991; mean Phi_st: 0.077241; mean Fst': 0.067318; mean Dxy: 0.0021366
+  19-37: mean Fst: 0.07247; mean Phi_st: -0.10283; mean Fst': 0.028376; mean Dxy: 0.0018335
+  19-38: mean Fst: 0.048635; mean Phi_st: 0.030913; mean Fst': 0.01486; mean Dxy: 0.001468
+  20-21: mean Fst: 0.054204; mean Phi_st: 0.035681; mean Fst': 0.011017; mean Dxy: 0.00068911
+  20-22: mean Fst: 0.027377; mean Phi_st: -0.098539; mean Fst': -0.025721; mean Dxy: 0.0015558
+  20-23: mean Fst: 0.024691; mean Phi_st: -0.025641; mean Fst': -0.027778; mean Dxy: 0.001527
+  20-24: mean Fst: 0.031347; mean Phi_st: -0.034089; mean Fst': -0.019886; mean Dxy: 0.0016819
+  20-25: mean Fst: 0.032573; mean Phi_st: 0.0099833; mean Fst': 0.0010346; mean Dxy: 0.00047302
+  20-26: mean Fst: 0.0097959; mean Phi_st: -0.32783; mean Fst': -0.13121; mean Dxy: 0.0012089
+  20-27: mean Fst: 0.039592; mean Phi_st: 0.0040567; mean Fst': 9.932e-05; mean Dxy: 0.00070557
+  20-28: mean Fst: 0.038847; mean Phi_st: 0.011657; mean Fst': 0.0076412; mean Dxy: 0.0011329
+  20-29: mean Fst: 0.024691; mean Phi_st: -0.025641; mean Fst': -0.0039683; mean Dxy: 0.00085665
+  20-30: mean Fst: 0.047619; mean Phi_st: -0.017796; mean Fst': -0.00091757; mean Dxy: 0.00067866
+  20-31: mean Fst: 0.022214; mean Phi_st: -0.021508; mean Fst': -0.0057367; mean Dxy: 0.0010624
+  20-32: mean Fst: 0.10347; mean Phi_st: -0.042105; mean Fst': 0.039658; mean Dxy: 0.0015659
+  20-33: mean Fst: 0.027344; mean Phi_st: -0.013047; mean Fst': -0.0043616; mean Dxy: 0.00089559
+  20-34: mean Fst: 0.043478; mean Phi_st: 0.014458; mean Fst': 0.017176; mean Dxy: 0.00088211
+  20-35: mean Fst: 0.055272; mean Phi_st: 0.014577; mean Fst': 0.001813; mean Dxy: 0.00068753
+  20-36: mean Fst: 0.048408; mean Phi_st: 0.0073204; mean Fst': 0.00086646; mean Dxy: 0.00061776
+  20-37: mean Fst: 0.11298; mean Phi_st: -0.071225; mean Fst': -0.014404; mean Dxy: 0.0016515
+  20-38: mean Fst: 0.042526; mean Phi_st: 0.016389; mean Fst': -0.0035793; mean Dxy: 0.0011833
+  21-22: mean Fst: 0.052459; mean Phi_st: -0.029257; mean Fst': -0.0096784; mean Dxy: 0.001609
+  21-23: mean Fst: 0.037228; mean Phi_st: 0.0037662; mean Fst': 0.0025267; mean Dxy: 0.0014862
+  21-24: mean Fst: 0.063262; mean Phi_st: 0.033853; mean Fst': 0.025484; mean Dxy: 0.0016647
+  21-25: mean Fst: 0.028371; mean Phi_st: 0.0014202; mean Fst': -0.0020772; mean Dxy: 0.001425
+  21-26: mean Fst: 0.074366; mean Phi_st: -0.12522; mean Fst': 0.019841; mean Dxy: 0.0017246
+  21-27: mean Fst: 0.044002; mean Phi_st: 0.012562; mean Fst': 0.0049285; mean Dxy: 0.0013022
+  21-28: mean Fst: 0.038192; mean Phi_st: 0.0094101; mean Fst': 0.0042331; mean Dxy: 0.0012366
+  21-29: mean Fst: 0.041141; mean Phi_st: 0.0086504; mean Fst': 0.013948; mean Dxy: 0.0015502
+  21-30: mean Fst: 0.055978; mean Phi_st: 0.0045569; mean Fst': 0.0030333; mean Dxy: 0.0015643
+  21-31: mean Fst: 0.037659; mean Phi_st: 0.0091986; mean Fst': 0.0033853; mean Dxy: 0.0013182
+  21-32: mean Fst: 0.087625; mean Phi_st: -0.0888; mean Fst': 0.027207; mean Dxy: 0.0018769
+  21-33: mean Fst: 0.035006; mean Phi_st: 0.0062017; mean Fst': 0.0020892; mean Dxy: 0.0012381
+  21-34: mean Fst: 0.035835; mean Phi_st: 0.0056717; mean Fst': 0.00098617; mean Dxy: 0.0013084
+  21-35: mean Fst: 0.054827; mean Phi_st: 0.018736; mean Fst': 0.0038188; mean Dxy: 0.0014559
+  21-36: mean Fst: 0.036316; mean Phi_st: -0.016601; mean Fst': -0.02162; mean Dxy: 0.0021564
+  21-37: mean Fst: 0.094684; mean Phi_st: -0.074907; mean Fst': 0.041089; mean Dxy: 0.0018603
+  21-38: mean Fst: 0.047537; mean Phi_st: 0.027568; mean Fst': 0.011809; mean Dxy: 0.0013889
+  22-23: mean Fst: 0.054542; mean Phi_st: -0.037115; mean Fst': -0.0018463; mean Dxy: 0.0015034
+  22-24: mean Fst: 0.10754; mean Phi_st: 0.032004; mean Fst': 0.016545; mean Dxy: 0.0025654
+  22-25: mean Fst: 0.040183; mean Phi_st: -0.038; mean Fst': 0.0033986; mean Dxy: 0.0012895
+  22-26: mean Fst: 0.2059; mean Phi_st: -0.048409; mean Fst': -0.10037; mean Dxy: 0.0030119
+  22-27: mean Fst: 0.065754; mean Phi_st: -0.017649; mean Fst': 0.0033597; mean Dxy: 0.0014875
+  22-28: mean Fst: 0.043087; mean Phi_st: -0.049195; mean Fst': -0.013126; mean Dxy: 0.0014296
+  22-29: mean Fst: 0.023004; mean Phi_st: -0.10809; mean Fst': -0.02447; mean Dxy: 0.0012931
+  22-30: mean Fst: 0.14658; mean Phi_st: 0.048072; mean Fst': 0.031195; mean Dxy: 0.0021937
+  22-31: mean Fst: 0.045887; mean Phi_st: -0.041788; mean Fst': -0.0028622; mean Dxy: 0.0015339
+  22-32: mean Fst: 0.24476; mean Phi_st: 0.01772; mean Fst': -0.043562; mean Dxy: 0.0031861
+  22-33: mean Fst: 0.040791; mean Phi_st: -0.053607; mean Fst': -0.0048343; mean Dxy: 0.0013254
+  22-34: mean Fst: 0.045533; mean Phi_st: -0.047221; mean Fst': -0.0048003; mean Dxy: 0.0014891
+  22-35: mean Fst: 0.066851; mean Phi_st: -0.059962; mean Fst': -0.0080992; mean Dxy: 0.0019268
+  22-36: mean Fst: 0.025; mean Phi_st: -0.16201; mean Fst': -0.07056; mean Dxy: 0.002219
+  22-37: mean Fst: 0.2837; mean Phi_st: 0.061725; mean Fst': 0.008302; mean Dxy: 0.0033777
+  22-38: mean Fst: 0.074071; mean Phi_st: 0.025414; mean Fst': 0.028699; mean Dxy: 0.0017753
+  23-24: mean Fst: 0.055905; mean Phi_st: 0.014566; mean Fst': 0.01542; mean Dxy: 0.0016467
+  23-25: mean Fst: 0.0342; mean Phi_st: 0.010253; mean Fst': 0.0058349; mean Dxy: 0.0014943
+  23-26: mean Fst: 0.071225; mean Phi_st: -0.12028; mean Fst': 0.0063411; mean Dxy: 0.0016889
+  23-27: mean Fst: 0.042035; mean Phi_st: 0.0062209; mean Fst': -0.0011849; mean Dxy: 0.0013219
+  23-28: mean Fst: 0.03546; mean Phi_st: 0.0017029; mean Fst': 0.0024516; mean Dxy: 0.0012412
+  23-29: mean Fst: 0.029609; mean Phi_st: -0.011569; mean Fst': -0.005607; mean Dxy: 0.0013353
+  23-30: mean Fst: 0.059681; mean Phi_st: 0.00571; mean Fst': -0.0027152; mean Dxy: 0.001543
+  23-31: mean Fst: 0.037873; mean Phi_st: 0.0080533; mean Fst': 0.0014733; mean Dxy: 0.001307
+  23-32: mean Fst: 0.085487; mean Phi_st: -0.086737; mean Fst': 0.014401; mean Dxy: 0.00184
+  23-33: mean Fst: 0.034748; mean Phi_st: 0.0035932; mean Fst': 0.0037166; mean Dxy: 0.001236
+  23-34: mean Fst: 0.042987; mean Phi_st: 0.016321; mean Fst': 0.005715; mean Dxy: 0.0014263
+  23-35: mean Fst: 0.070101; mean Phi_st: 0.035441; mean Fst': 0.025034; mean Dxy: 0.001774
+  23-36: mean Fst: 0.0041379; mean Phi_st: -0.091446; mean Fst': -0.044304; mean Dxy: 0.0024782
+  23-37: mean Fst: 0.11433; mean Phi_st: -0.037467; mean Fst': 0.049279; mean Dxy: 0.0020527
+  23-38: mean Fst: 0.049664; mean Phi_st: 0.029084; mean Fst': 0.011828; mean Dxy: 0.0014479
+  24-25: mean Fst: 0.053664; mean Phi_st: 0.034716; mean Fst': 0.029562; mean Dxy: 0.0015137
+  24-26: mean Fst: 0.24355; mean Phi_st: 0.11917; mean Fst': 0.14676; mean Dxy: 0.0033485
+  24-27: mean Fst: 0.070609; mean Phi_st: 0.034496; mean Fst': 0.026497; mean Dxy: 0.0015352
+  24-28: mean Fst: 0.068875; mean Phi_st: 0.043977; mean Fst': 0.035367; mean Dxy: 0.0015564
+  24-29: mean Fst: 0.06771; mean Phi_st: 0.031689; mean Fst': 0.029191; mean Dxy: 0.001847
+  24-30: mean Fst: 0.12978; mean Phi_st: 0.090078; mean Fst': 0.040902; mean Dxy: 0.0022482
+  24-31: mean Fst: 0.059318; mean Phi_st: 0.027874; mean Fst': 0.027231; mean Dxy: 0.0016937
+  24-32: mean Fst: 0.22866; mean Phi_st: 0.10233; mean Fst': 0.10199; mean Dxy: 0.0032128
+  24-33: mean Fst: 0.056886; mean Phi_st: 0.025124; mean Fst': 0.02397; mean Dxy: 0.0014848
+  24-34: mean Fst: 0.064201; mean Phi_st: 0.036841; mean Fst': 0.032724; mean Dxy: 0.0015726
+  24-35: mean Fst: 0.11475; mean Phi_st: 0.086922; mean Fst': 0.051359; mean Dxy: 0.0020457
+  24-36: mean Fst: 0.097744; mean Phi_st: 0.071429; mean Fst': 0.022727; mean Dxy: 0.0012407
+  24-37: mean Fst: 0.23838; mean Phi_st: 0.14636; mean Fst': 0.14167; mean Dxy: 0.0031906
+  24-38: mean Fst: 0.077742; mean Phi_st: 0.058438; mean Fst': 0.039937; mean Dxy: 0.00175
+  25-26: mean Fst: 0.066933; mean Phi_st: -0.11068; mean Fst': 0.033482; mean Dxy: 0.0017199
+  25-27: mean Fst: 0.036004; mean Phi_st: 0.011849; mean Fst': 2.2315e-05; mean Dxy: 0.0012474
+  25-28: mean Fst: 0.031986; mean Phi_st: 0.0083336; mean Fst': 0.0020689; mean Dxy: 0.0013244
+  25-29: mean Fst: 0.02123; mean Phi_st: -0.01439; mean Fst': -0.0086388; mean Dxy: 0.0013129
+  25-30: mean Fst: 0.043863; mean Phi_st: 0.0010965; mean Fst': 0.0033675; mean Dxy: 0.0014779
+  25-31: mean Fst: 0.034579; mean Phi_st: 0.013612; mean Fst': 0.0026678; mean Dxy: 0.0013523
+  25-32: mean Fst: 0.056647; mean Phi_st: -0.13584; mean Fst': 0.0061448; mean Dxy: 0.001666
+  25-33: mean Fst: 0.032059; mean Phi_st: 0.0094337; mean Fst': 0.0019559; mean Dxy: 0.0013475
+  25-34: mean Fst: 0.031376; mean Phi_st: 0.0082733; mean Fst': 0.0016829; mean Dxy: 0.0013242
+  25-35: mean Fst: 0.036415; mean Phi_st: -0.0018967; mean Fst': -0.0035468; mean Dxy: 0.0014655
+  25-36: mean Fst: 0.030882; mean Phi_st: -0.01319; mean Fst': -0.01596; mean Dxy: 0.0020428
+  25-37: mean Fst: 0.051063; mean Phi_st: -0.12474; mean Fst': 0.014793; mean Dxy: 0.0016953
+  25-38: mean Fst: 0.041869; mean Phi_st: 0.027453; mean Fst': 0.0094112; mean Dxy: 0.0013878
+  26-27: mean Fst: 0.08612; mean Phi_st: -0.10184; mean Fst': 0.020823; mean Dxy: 0.0018849
+  26-28: mean Fst: 0.073976; mean Phi_st: -0.11311; mean Fst': 0.023097; mean Dxy: 0.0017302
+  26-29: mean Fst: 0.06351; mean Phi_st: -0.17278; mean Fst': -0.0097694; mean Dxy: 0.0015883
+  26-30: mean Fst: 0.17944; mean Phi_st: -0.023332; mean Fst': 0.018879; mean Dxy: 0.0026724
+  26-31: mean Fst: 0.075082; mean Phi_st: -0.10966; mean Fst': 0.021311; mean Dxy: 0.0017857
+  26-32: mean Fst: 0.54133; mean Phi_st: 0.27098; mean Fst': 0.35301; mean Dxy: 0.0047472
+  26-33: mean Fst: 0.069678; mean Phi_st: -0.11607; mean Fst': 0.028545; mean Dxy: 0.0017188
+  26-34: mean Fst: 0.080303; mean Phi_st: -0.09975; mean Fst': 0.028281; mean Dxy: 0.0017956
+  26-35: mean Fst: 0.12162; mean Phi_st: -0.064439; mean Fst': 0.0011927; mean Dxy: 0.0021493
+  26-36: mean Fst: 0.027778; mean Phi_st: -0.31765; mean Fst': -0.064133; mean Dxy: 0.00087227
+  26-37: mean Fst: 0.54011; mean Phi_st: 0.27075; mean Fst': 0.34959; mean Dxy: 0.0047205
+  26-38: mean Fst: 0.095115; mean Phi_st: -0.059116; mean Fst': 0.043276; mean Dxy: 0.002055
+  27-28: mean Fst: 0.042848; mean Phi_st: 0.012063; mean Fst': 0.0056846; mean Dxy: 0.0013791
+  27-29: mean Fst: 0.052224; mean Phi_st: 0.023478; mean Fst': 0.018335; mean Dxy: 0.0015004
+  27-30: mean Fst: 0.063142; mean Phi_st: 0.0064913; mean Fst': 0.006045; mean Dxy: 0.0016093
+  27-31: mean Fst: 0.044298; mean Phi_st: 0.014316; mean Fst': 0.0054807; mean Dxy: 0.001371
+  27-32: mean Fst: 0.081652; mean Phi_st: -0.10954; mean Fst': 0.010685; mean Dxy: 0.0018808
+  27-33: mean Fst: 0.040974; mean Phi_st: 0.010745; mean Fst': 0.0043308; mean Dxy: 0.0013342
+  27-34: mean Fst: 0.044609; mean Phi_st: 0.015059; mean Fst': 0.004479; mean Dxy: 0.0014109
+  27-35: mean Fst: 0.063645; mean Phi_st: 0.019861; mean Fst': 0.01166; mean Dxy: 0.0014791
+  27-36: mean Fst: 0.031149; mean Phi_st: -0.041277; mean Fst': -0.00418; mean Dxy: 0.0010108
+  27-37: mean Fst: 0.088216; mean Phi_st: -0.10099; mean Fst': 0.017619; mean Dxy: 0.0019223
+  27-38: mean Fst: 0.055556; mean Phi_st: 0.034487; mean Fst': 0.01551; mean Dxy: 0.0015145
+  28-29: mean Fst: 0.046049; mean Phi_st: 0.019695; mean Fst': 0.015754; mean Dxy: 0.0015362
+  28-30: mean Fst: 0.053652; mean Phi_st: 0.0025455; mean Fst': 0.0064859; mean Dxy: 0.0015214
+  28-31: mean Fst: 0.03978; mean Phi_st: 0.013037; mean Fst': 0.0047278; mean Dxy: 0.0013485
+  28-32: mean Fst: 0.071769; mean Phi_st: -0.11537; mean Fst': 0.020353; mean Dxy: 0.0017557
+  28-33: mean Fst: 0.037861; mean Phi_st: 0.011108; mean Fst': 0.0046984; mean Dxy: 0.0013314
+  28-34: mean Fst: 0.041662; mean Phi_st: 0.01622; mean Fst': 0.0070283; mean Dxy: 0.0012962
+  28-35: mean Fst: 0.048796; mean Phi_st: 0.0037426; mean Fst': 0.0045387; mean Dxy: 0.0013516
+  28-36: mean Fst: 0.03877; mean Phi_st: -0.01619; mean Fst': -0.0019837; mean Dxy: 0.001362
+  28-37: mean Fst: 0.075636; mean Phi_st: -0.10642; mean Fst': 0.021683; mean Dxy: 0.0018078
+  28-38: mean Fst: 0.050204; mean Phi_st: 0.031328; mean Fst': 0.015002; mean Dxy: 0.0014489
+  29-30: mean Fst: 0.070425; mean Phi_st: 0.014008; mean Fst': 0.018894; mean Dxy: 0.0022384
+  29-31: mean Fst: 0.046381; mean Phi_st: 0.021585; mean Fst': 0.014842; mean Dxy: 0.0012697
+  29-32: mean Fst: 0.11218; mean Phi_st: -0.005061; mean Fst': 0.033899; mean Dxy: 0.0020408
+  29-33: mean Fst: 0.035037; mean Phi_st: 0.00060604; mean Fst': 0.0046779; mean Dxy: 0.0012127
+  29-34: mean Fst: 0.035544; mean Phi_st: 0.0039414; mean Fst': 0.00046638; mean Dxy: 0.0011761
+  29-35: mean Fst: 0.041193; mean Phi_st: -0.018486; mean Fst': 0.0061164; mean Dxy: 0.0016736
+  29-36: mean Fst: 0.052404; mean Phi_st: 0.014387; mean Fst': 0.0035294; mean Dxy: 0.0015285
+  29-37: mean Fst: 0.093099; mean Phi_st: -0.052626; mean Fst': 0.029797; mean Dxy: 0.001933
+  29-38: mean Fst: 0.045139; mean Phi_st: 0.020822; mean Fst': 0.013151; mean Dxy: 0.0014754
+  30-31: mean Fst: 0.054131; mean Phi_st: 0.0049685; mean Fst': 0.0050835; mean Dxy: 0.0015359
+  30-32: mean Fst: 0.17906; mean Phi_st: -0.025461; mean Fst': 0.013463; mean Dxy: 0.0027082
+  30-33: mean Fst: 0.051285; mean Phi_st: 0.001734; mean Fst': 0.0066617; mean Dxy: 0.0014734
+  30-34: mean Fst: 0.060393; mean Phi_st: 0.015588; mean Fst': 0.012532; mean Dxy: 0.0015034
+  30-35: mean Fst: 0.09154; mean Phi_st: 0.015277; mean Fst': 0.0041897; mean Dxy: 0.0020564
+  30-36: mean Fst: 0.0034722; mean Phi_st: -0.16243; mean Fst': -0.05602; mean Dxy: 0.0017689
+  30-37: mean Fst: 0.17678; mean Phi_st: -0.031658; mean Fst': 0.0014502; mean Dxy: 0.0026862
+  30-38: mean Fst: 0.070173; mean Phi_st: 0.039275; mean Fst': 0.019924; mean Dxy: 0.0017153
+  31-32: mean Fst: 0.071442; mean Phi_st: -0.11106; mean Fst': 0.017087; mean Dxy: 0.0018026
+  31-33: mean Fst: 0.038729; mean Phi_st: 0.012732; mean Fst': 0.0048612; mean Dxy: 0.0013155
+  31-34: mean Fst: 0.040298; mean Phi_st: 0.015571; mean Fst': 0.0056599; mean Dxy: 0.001355
+  31-35: mean Fst: 0.048555; mean Phi_st: 0.0066726; mean Fst': 0.0082288; mean Dxy: 0.0014415
+  31-36: mean Fst: 0.015672; mean Phi_st: -0.059894; mean Fst': -0.0085038; mean Dxy: 0.0011239
+  31-37: mean Fst: 0.075878; mean Phi_st: -0.10734; mean Fst': 0.016817; mean Dxy: 0.0018312
+  31-38: mean Fst: 0.052164; mean Phi_st: 0.034777; mean Fst': 0.015783; mean Dxy: 0.0014751
+  32-33: mean Fst: 0.06288; mean Phi_st: -0.13201; mean Fst': 0.012582; mean Dxy: 0.0017025
+  32-34: mean Fst: 0.077553; mean Phi_st: -0.10914; mean Fst': 0.025589; mean Dxy: 0.0018091
+  32-35: mean Fst: 0.15995; mean Phi_st: -0.0050437; mean Fst': 0.056674; mean Dxy: 0.002371
+  32-36: mean Fst: 0.10758; mean Phi_st: -0.1388; mean Fst': -0.089869; mean Dxy: 0.0019571
+  32-37: mean Fst: 0.53704; mean Phi_st: 0.26785; mean Fst': 0.34328; mean Dxy: 0.0046866
+  32-38: mean Fst: 0.086522; mean Phi_st: -0.069825; mean Fst': 0.033064; mean Dxy: 0.0020586
+  33-34: mean Fst: 0.039584; mean Phi_st: 0.014428; mean Fst': 0.00612; mean Dxy: 0.0013129
+  33-35: mean Fst: 0.042608; mean Phi_st: -0.0021643; mean Fst': 0.0010392; mean Dxy: 0.0013141
+  33-36: mean Fst: 0.013364; mean Phi_st: -0.069215; mean Fst': -0.014949; mean Dxy: 0.0013089
+  33-37: mean Fst: 0.07157; mean Phi_st: -0.11399; mean Fst': 0.021142; mean Dxy: 0.0017565
+  33-38: mean Fst: 0.047317; mean Phi_st: 0.027797; mean Fst': 0.013488; mean Dxy: 0.0014252
+  34-35: mean Fst: 0.051116; mean Phi_st: 0.015137; mean Fst': 0.0043451; mean Dxy: 0.0013336
+  34-36: mean Fst: 0.063294; mean Phi_st: 0.038904; mean Fst': 0.01148; mean Dxy: 0.0010762
+  34-37: mean Fst: 0.078629; mean Phi_st: -0.10539; mean Fst': 0.031971; mean Dxy: 0.001811
+  34-38: mean Fst: 0.050968; mean Phi_st: 0.033616; mean Fst': 0.015474; mean Dxy: 0.0014645
+  35-36: mean Fst: 0.098214; mean Phi_st: 0.062921; mean Fst': 0.023631; mean Dxy: 0.0015875
+  35-37: mean Fst: 0.16498; mean Phi_st: 0.005557; mean Fst': 0.044153; mean Dxy: 0.0026276
+  35-38: mean Fst: 0.068548; mean Phi_st: 0.049621; mean Fst': 0.020108; mean Dxy: 0.0015002
+  36-37: mean Fst: 0.065712; mean Phi_st: -0.16024; mean Fst': -0.030053; mean Dxy: 0.0018674
+  36-38: mean Fst: 0.026074; mean Phi_st: -0.037309; mean Fst': -0.0087231; mean Dxy: 0.0014409
+  37-38: mean Fst: 0.10278; mean Phi_st: -0.04024; mean Fst': 0.051108; mean Dxy: 0.0021677
+
+Populations is done.

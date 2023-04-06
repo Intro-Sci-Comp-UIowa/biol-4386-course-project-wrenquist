@@ -1,0 +1,65 @@
+Logging to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn9/Stacksrun0.7/populations.log'.
+Locus/sample distributions will be written to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn9/Stacksrun0.7/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0.7
+  Locus Population limit: 1
+  Percent samples overall: 0
+  Minor allele frequency cutoff: 0
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: off
+  F-stats kernel smoothing: off
+  Bootstrap resampling: off
+
+Parsing population map...
+The population map contained 275 samples, 1 population(s), 1 group(s).
+Working on 275 samples.
+Working on 1 population(s):
+    1: AR001, AR002, AR003, AR004, AR005, AR006, BHB001, BHB002, BHB101, BHB102, BHB103, BHB201, BHB301, BHB302, BHB303, BHB304, 
+       BHB305, BHB306, BHB307, BHB308, BHB310, BPA003, BPA004, BPA006, BPA007, BPI001, BPI002, BPI003, BPI004, BPI005, BPI006, BPI007, 
+       BPI008, BPI009, BPI010, CBEC001a, CMHP001, CMHP002, CMHP003, CMHP004, CMHP006, CMHP007, CMHP008, CMHP009, CMHP010, ELP002, 
+       ELP003b, ELP004b, ELP005a, ELP006b, FLP002, FPL001, FPL003, FPL004, FPL005, FPL006, FPL007, FPL008, FPL009, FPL010, FS001, 
+       FS002, GPNC001, GPNC002, GPNC003, GPNC004, GPNC005, GPNC006, GPNC007, GPNC008, GPNC009, GPNC010, GT004, GT005, GT006, GT007, 
+       GT008, GT009, GT010, GT011, GT012, GT013, GT014, GT015, GT016, GT017, GT018, GT019, GT020, GT021, GT022, GT023, GT024, GT025, 
+       GT026, GT027, GT028, GT029, GT030, HS001, HT001, KMA001, KMA002, KMA003, KMA004, KMA005, KMI001, KMI002, KMI003, KMI004, 
+       KMI005, KMI006, KMI007, KMI008, KMI009, KMI010, KUC001, KUC002, KUC003, KUC004, KUC005, KUC006, KUC007, MLA001, MLA002, MLA003, 
+       MLA004, MLA005, MLA007, MLI001, MLI002, MLI003, MLI004, MLI005, OCL001, OCL002, OCL003, OCL004, OCL005, OCL006, OCL007, OCL008, 
+       OCL009, OCL010, PBG001, PBG002, PBG003ab, PBG005, PBG006, PBG007ab, PBG008ab, PBG009ab, PBG010ab, PC001, PC002, PC003, PC004, 
+       PC005, PC006, PC007, PC008, PC009, PC010, PLPA004, PLPA007, PLPI001, PLPI002, PLPI003, PLPI004, PLPI005, PLPI006, PLPI008, 
+       PLPI009, PLPI010, RL001, RL002ab, RL003, RL004ab, RL005ab, RS001, RS002, RS003, RS004, RS005, RS007, RS008, RS009, RS010, 
+       RS011, RS012, RS013, RS014, RSA001, RSI201, RSI202, RSI203, RSI204, RSI206, RSI207, RSI208, RSI209, SLP001, SLP002, SLP003, 
+       SLP004, SLP005, SLP006, SLP007, SLP008, SLP010, SW001, SW002, SW003, SW004, SW005, SW006, SW007, SW008, SW009, SW010, SWCPA001, 
+       SWCPA002, SWCPA003, SWCPI001, SWCPI002, SWCPI003, SWCPI004, SWCPI005, SWCPI006, SWCPI007, SWCPI008, SWCPI009, SWCPI010, TBD001, 
+       TF002, TFI001, TFI003, TFI004, TFI005, TFI006, TFI007, TFI008, TFI009, TFI010, TRC001, TRC002, TRC003, TRC004, TRC005, TRC006, 
+       TRC007, TRC008, TRC009, TRC011, UR001, UR002, UR003, UR004, UR005, VR001, VR002, VR003, VR004, VR005, VWMA002, VWMI001b, 
+       VWMI002, VWMI003, VWMI004, VWMI005, VWMI006, VWMI007, VWMI008, VWMI009, VWMI010
+Working on 1 group(s) of populations:
+    defaultgrp: 1
+
+SNPs and calls will be written in VCF format to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn9/Stacksrun0.7/populations.snps.vcf'
+Polymorphic sites in Structure format will be written to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn9/Stacksrun0.7/populations.structure'
+Polymorphic sites in PLINK format will be written to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn9/Stacksrun0.7/populations.plink.ped'
+Fixed difference sites in Phylip format will be written to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn9/Stacksrun0.7/populations.fixed.phylip'
+Polymorphic sites in Phylip format will be written to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn9/Stacksrun0.7/populations.var.phylip'
+Raw haplotypes will be written to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn9/Stacksrun0.7/populations.haplotypes.tsv'
+Population-level summary statistics will be written to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn9/Stacksrun0.7/populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn9/Stacksrun0.7/populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * compute F-statistics
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in '/Users/wrenquist/Stacksrun_F21F22_Mn_ALL_FOLDERS/Stacksrun_F21F22_allgracilenta_onepop_Mn9/Stacksrun0.7/populations.log.distribs'.
+
+Now processing...
+Batch 1 
+
+Removed 277421 loci that did not pass sample/population constraints from 278185 loci.
+Kept 764 loci, composed of 109104 sites; 1077 of those sites were filtered, 752 variant sites remained.
+Mean genotyped sites per locus: 142.81bp (stderr 0.12).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  1: 203.87 samples per locus; pi: 0.045195; all/variant/polymorphic sites: 109104/752/752; private alleles: 0
+Populations is done.
