@@ -105,9 +105,9 @@ Relationship between M and n parameter values for the Site specific iteration. A
 
 ### Difficulties encountered 
 There were two main difficulties I encountered with the process of reproducing this parameter testing method with my MS research data: 
-- 1. I had to do a lot more digging to really understand what these parameters meant. 
+1. I had to do a lot more digging to really understand what these parameters meant. 
 It took me a long time to be able to articulate what exactly each parameter did. I had a hard time visualizing this data. Catchen and Rochette published an explanation found here (https://catchenlab.life.illinois.edu/stacks/param_tut.php) that really helped in my understanding. 
-- 2. I found more parameters (such as -p) that could be used additionally to filter the data. 
+2. I found more parameters (such as -p) that could be used additionally to filter the data. 
 There is more work to be done to see if adding in -p (controls the minimum number of populations a locus must be present in to process a locus) can help filter missing data within the genomic dataset. 
 
 ### Discrepancies between my reproduction and the published result
