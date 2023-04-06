@@ -1,5 +1,5 @@
-# BIOL:4386 Course Project - Reproducing *Deriving genotypes from RAD-seq short-read data using Stacks*
-## Project Homework 2- Mar 5 2023
+# BIOL:4386 Course Project - Reproducing *Deriving genotypes from RAD-seq short-read data using Stacks* with genomic data from moth *Schinia gracilenta*
+## Project Homework 3- April 6 2023
 
 ## Reference 
 Rochette, N., Catchen, J. Deriving genotypes from RAD-seq short-read data using Stacks. Nat Protoc 12, 2640–2659 (2017). https://doi.org/10.1038/nprot.2017.123
@@ -24,7 +24,20 @@ STACKS is a software pipeline for building loci from short-read sequences, such 
 
 The creators of STACKS recommend that before data analysis is continued, the raw data is run through the denovol_map.pl and examined for how different parameters are filtering loci counts. I would like to reproduce the following figure, specifically looking at **Figure 2a- mapping the number of loci shared by 80% of samples when the values of M and n parameters are varied.** A figure like this is important to analyze before running the rest of the population related summary statistics to understand what parameters will represent my dataset the best. 
 
-This graph in Catchen et al 2017 shos that the parameter of M =4, n =4 is where the number of loci shared by 80% of samples plataues. The leveling of the number of loci shows that these parameters will be sufficient to stabilize the number of loci used in analysis. 
+There are three main steps within the STACKS pipeline and all three steps can be controled by three respective parameters. 
+#### Step 1: Assemble of alleles WITHIN each individual, controlled by parameter -m. Parameter -m stands for the minimum stack depth parameter and controls the number of raw reads required to faorm an initial stack. For example, if the -m is set to the default value of -m = 3, this means that if there is a stack with only two alleles, then that stack will be removed from any downstream analyses. 
+- If -m is set too LOW- reads with similar sequencing errors are likely to be accidentally labeled as alleles. 
+- If -m is set too HIGH- true alleles will not be recorded and will drop out of anlysis. 
+
+#### Step 2: Assemble loci WITHIN each individual, controlled by parameter -M. Parameter -M stands for the distance allowed between stacks, and represents the number of nucleotides that may be different between two stacks to merge them. For example, if -M is set to the default value, -M = 2, this means that from the stacks created in Step 1, if there are fewer than 2 nucleotide mismatches, then they will be merged into one locus. 
+- If -M is set too LOW- some loci will fail to be reconstructed. SNPs will appear as two different loci fro the rest of the pipeline. 
+- If -M is set too HIGH- different loci with some sequence similarity will be lumped together into the same locus. 
+
+#### Step 3: Make catalog of loci across ALL individuals, controlled by parameter -n. Parameter -n stands for the distance allowed between catalog loci, and represents the number of nucleotide differences loci in individuals can have to be combined into a master locus. This parameter is very similar to parameter -M. What makes them different is that -M is assembling loci WITHIN each individual and -n is assembling loci across ALL individuals. 
+- If -n is set too LOW- some loci will fail to be reconstructed. SNPs will appear as two different loci fro the rest of the pipeline. 
+- If -n is set too HIGH- different loci with some sequence similarity will be lumped together into the same locus. 
+
+I chose parameter values by looking at the relationship between the number of loci shared by all samples across values of M and n. I generated a graph that showed how the number of shared loci changed as M and n increased. The recommended choice of a value for M and n is the smallest number at which the number of shared loci plateaus, or stabilizes (Catchen et al 2017).
 
 ## Methods 
 ### 1. Field Collections and Sample Preparation
