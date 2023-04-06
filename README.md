@@ -95,7 +95,7 @@ Relationship between M and n parameter values for the One population iteration. 
 
 Relationship between M and n parameter values for the One population_site specific iteration. As values of M and n parameters increase, the number of loci shared by 70% of samples decrease. M and n = 8 was not available due to computing errors with missingness. The number of shared loci plateau around M and n = 6.
 
-![0b Mn One population_wite specific parameter test](https://user-images.githubusercontent.com/125233832/230449064-f6cd542c-46fd-4200-bf1b-ebeb1c69c0ca.jpg)
+![0b Mn One population_wite specific parameter test](src=https://user-images.githubusercontent.com/125233832/230449064-f6cd542c-46fd-4200-bf1b-ebeb1c69c0ca.jpg)
 
 Relationship between M and n parameter values for the Site specific iteration. As M and n values decrease, the number of loci shared by 70% of the samples decreases. M and n = 6 is where the number of shared loci stabilize, or plateau.
 
