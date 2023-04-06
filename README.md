@@ -45,9 +45,9 @@ The three different combinations of population scenarios that I tested are shown
 ![Capture](https://user-images.githubusercontent.com/125233832/230450132-ebf063fa-8b73-46f1-a0ce-9d1fe21e4cc7.JPG)
 
 
-** Understanding these parameters and testing which fit the data best are important because they: 
-1. Make sure true genetic differences are recorded. 
-2. Help throw out sequencing errors and missing data BEFORE data analysis. **
+**Understanding these parameters and testing which fit the data best are important because they:** 
+**1. Make sure true genetic differences are recorded.** 
+**2. Help throw out sequencing errors and missing data BEFORE data analysis.**
 
 ## Methods 
 ### 1. Field Collections and Sample Preparation
