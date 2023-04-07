@@ -20,6 +20,7 @@ Use of restriction-site associated DNA sequencing (RAD seq) has increasingly bee
 STACKS is a software pipeline for building loci from short-read sequences, such as those generated on the Illumina sequencing results. STACKS was specifically built to work with restriction-enzyme based data, such as RAD-seq, in order to build genetic maps and conduct population genomics and phylogeography. 
 
 ## Figure to reproduce **ONLY PART A** 
+![Figure to recreate](Figure-to-recreate.JPG)
 
 The creators of STACKS recommend that before data analysis is continued, the raw data is run through the denovol_map.pl and examined for how different parameters are filtering loci counts. I would like to reproduce the following figure, specifically looking at **Figure 2a- mapping the number of loci shared by 80% of samples when the values of M and n parameters are varied.** A figure like this is important to analyze before running the rest of the population related summary statistics to understand what parameters will represent my dataset the best. 
 
