@@ -42,7 +42,7 @@ I chose parameter values by looking at the relationship between the number of lo
 I tested how varying M and n parameters affected locus capture using three different combinations of population scenarios in the STACKS denovo.pl and populations.pl pipelines (Table 6). The population maps were either grouped entirely together as one population (k = 1), separated into their site-specific populations (k = 38), or combined initially and then separated into site-specific populations for populations.pl. These three iterations were chosen to test how grouping individuals differently within the denovo.pl and populations.pl affected the output number of shared loci.
 
 The three different combinations of population scenarios that I tested are shown below. This table shows the names I gave each iteration, the number of populations the data was sorted into for the denovo.pl and the number of populations the data was sorted into for populations.pl.
-![Parameter iterations explanation table](Parameter-iterations-explanation-table.jpg)
+![Parameter iterations explanation table](Parameter-iterations-explanation-table.JPG)
 
 **Understanding these parameters and testing which fit the data best are important because they:** 
 **1. Make sure true genetic differences are recorded.** 
