@@ -4,27 +4,20 @@
 ## Reference 
 Rochette, N., Catchen, J. Deriving genotypes from RAD-seq short-read data using Stacks. Nat Protoc 12, 2640–2659 (2017). https://doi.org/10.1038/nprot.2017.123
 
+## Abstract
+
 ## Introduction
-Research abstract: When one species depends on another for survival, the two species may have shared demographic histories to the extent that studying a symbiont might tell us about its host. When genetic capabilities are limited for studying the host directly, the study of a symbiont may provide a necessary workaround to ask broad questions regarding the biotic and abiotic factors that influence the evolutionary and demographic histories of organisms. 
+When one species depends on another for survival, the two species may have shared demographic histories to the extent that studying a symbiont might tell us about its host. When genetic capabilities are limited for studying the host directly, the study of a symbiont may provide a necessary workaround to ask broad questions regarding the biotic and abiotic factors that influence the evolutionary and demographic histories of organisms. 
 
 In the slender flower moth *(Schinia gracilenta)* and its host plant, sumpweed *(Iva annua)*, I utilize this strategy to address existing uncertainties about sumpweed as an early domesticated crop plant in North America. Sumpweed is thought to have been cultivated in North American ca. 5000 BC - AD 1700 and its range may have been expanded during this time, though few archaeobotanical records exist to support or reject a range expansion. I collected *Schinia gracilenta*, *Schinia rivulosa* and *Schinia thoreaui* feeding on *Iva annua*, *Iva frutescens*, *Ambrosia artemisiifolia* and *Ambrosia trifida* across the eastern half of what is now the USA. I used Restriction-site Associated DNA sequencing (RAD-seq) to test whether the *S. gracilenta* genomes contain signatures of a possible human-mediated *I. annua* range expansion. I generated a phylogenetic tree of the collection using the RAD-seq data and subsampled collections to make a secondary mitochondrial COI gene tree. Using population genetics methodologies, I determined the population structure of all Schinia collections from all host plants. Then, in a restricted analysis that includes only *S. gracilenta*, I, again, looked at the population structure in addition to several population genetics metrics of population diversity. 
 
-Based on my evaluation of these metrics, I find no evidence that *S. gracilenta* has undergone the type of recent range expansion that would suggest humans had moved *I. annua* into new locations. This could be because *I. annua* was cultivated without a concomitant range expansion. However, the finding that *S. gracilenta* can also feed on *Ambrosia* species, suggests that *S. gracilenta* could have preceded any range expansion by *I. annua* via feeding on more widely distributed alternative host plants. Alternatively, introgressed alleles from other *Schinia* species may obscure a signal of range expansion. Though I have several possible ideas for future study, *S. gracilenta* may not have the obligate symbiotic relationship with *I. annua* required for detection of its host’s demographic history.
+I utilized RAD sequencing because it **provides efficient and flexible markers for population genetic analysis of non-model organisms with no published reference genome** (Bayona-Vasquez et al., 2019, Eaton & Overcast, 2020). RAD sequencing produces whole locus and SNP datasets. 
 
-## Data that I currently have
-Restriction-site associated DNA sequencing (RAD sequencing) results from 315 individuals collected from 35 sites distributed across eastern North America. We utilized RAD sequencing because it **provides efficient and flexible markers for population genetic analysis of non-model organisms with no published reference genome** (Bayona-Vasquez et al., 2019, Eaton & Overcast, 2020). RAD sequencing produces whole locus and SNP datasets. 
+Use of restriction-site associated DNA sequencing (RAD seq) has increasingly been utilized to genotype populations without non-model organisms as a tool for population genetics analysis. To produce a reliable set of loci for downstream analysis, understanding of bioinformatic programs such as Stacks is necessary. 
 
-## Reproducing STACKS parameter paper  
-Use of restriction-site associated DNA sequencing (RAD seq) has increasingly been utilized to genotype populations without non-model organisms as a tool for population genetics analysis. To produce a reliable set of loci for downstream analysis, understanding of bioinformatic programs such as STACKS is necessary. 
+**Stacks is a software pipeline for building loci from short-read sequences**, such as those generated on the Illumina sequencing results. Stacks was specifically built to work with restriction-enzyme based data, such as RAD-seq, in order to build genetic maps and conduct population genomics and phylogeography. 
 
-STACKS is a software pipeline for building loci from short-read sequences, such as those generated on the Illumina sequencing results. STACKS was specifically built to work with restriction-enzyme based data, such as RAD-seq, in order to build genetic maps and conduct population genomics and phylogeography. 
-
-## Figure to reproduce **ONLY PART A** 
-![Figure to recreate](Figure-to-recreate.JPG)
-
-The creators of STACKS recommend that before data analysis is continued, the raw data is run through the denovol_map.pl and examined for how different parameters are filtering loci counts. I would like to reproduce the following figure, specifically looking at **Figure 2a- mapping the number of loci shared by 80% of samples when the values of M and n parameters are varied.** A figure like this is important to analyze before running the rest of the population related summary statistics to understand what parameters will represent my dataset the best. 
-
-There are three main steps within the STACKS pipeline and all three steps can be controled by three respective parameters. 
+There are three main steps within the Stacks pipeline that control the *de novo* assemble of loci. I chose the *de novo* assembly for my dataset because *Schinia gracilenta* does **NOT** have a published reference genome. Each step within the *de novo* assembly has an assigned parameter that controlls how the data is filtered for that step. There are default values for these parameters, however, it is recommended to test what your data looks like for each parameter in order to determine how the data fits the program for best analysis. 
 
 #### Step 1: Assemble of alleles WITHIN each individual, controlled by parameter -m. Parameter -m stands for the minimum stack depth parameter and controls the number of raw reads required to faorm an initial stack. For example, if the -m is set to the default value of -m = 3, this means that if there is a stack with only two alleles, then that stack will be removed from any downstream analyses. 
 - If -m is set too LOW- reads with similar sequencing errors are likely to be accidentally labeled as alleles. 
@@ -38,12 +31,24 @@ There are three main steps within the STACKS pipeline and all three steps can be
 - If -n is set too LOW- some loci will fail to be reconstructed. SNPs will appear as two different loci fro the rest of the pipeline. 
 - If -n is set too HIGH- different loci with some sequence similarity will be lumped together into the same locus.  
 
-I chose parameter values by looking at the relationship between the number of loci shared by all samples across values of M and n. I generated a graph that showed how the number of shared loci changed as M and n increased. The recommended choice of a value for M and n is the smallest number at which the number of shared loci plateaus, or stabilizes (Catchen et al 2017).
+The creators of STACKS recommend that before data analysis is continued, the raw data is run through the *de novo* pipeline multiple times using different parameters. The output of each of the these parameters can be examined for how the different parameters within the program are filtering loci counts. For this project, I reproduced the following figure, specifically looking at **Figure 2a- mapping the number of loci shared by 80% of samples when the values of M and n parameters are varied.** The process to create this figure is important to produce when using the Stacks progam to analyze what parameters will represent my dataset the best. Parameters must be settled before moving on through the rest of the data analysis pipeline. 
 
-I tested how varying M and n parameters affected locus capture using three different combinations of population scenarios in the STACKS denovo.pl and populations.pl pipelines (Table 6). The population maps were either grouped entirely together as one population (k = 1), separated into their site-specific populations (k = 38), or combined initially and then separated into site-specific populations for populations.pl. These three iterations were chosen to test how grouping individuals differently within the denovo.pl and populations.pl affected the output number of shared loci.
+## Figure to reproduce **ONLY PART A** 
 
-The three different combinations of population scenarios that I tested are shown below. This table shows the names I gave each iteration, the number of populations the data was sorted into for the denovo.pl and the number of populations the data was sorted into for populations.pl.
-![Parameter iterations explanation table](Parameter-iterations-explanation-table.JPG)
+![Figure to recreate](Figure-to-recreate.JPG)
+
+I chose parameter values by looking at the relationship between the number of loci shared by all samples across values of M and n. I generated nine *de novo* outputs: 
+1. M, n = 1
+2. M, n = 2
+3. M, n = 3
+4. M, n = 4
+5. M, n = 5
+6. M, n = 6
+7. M, n = 7
+8. M, n = 8
+9. M, n = 9
+
+I generated a graph that showed how the number of shared loci changed as M and n increased. The recommended choice of a value for M and n is the smallest number at which the number of shared loci plateaus, or stabilizes (Catchen et al 2017).
 
 **Understanding these parameters and testing which fit the data best are important because they:** 
 **1. Make sure true genetic differences are recorded.** 
