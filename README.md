@@ -116,8 +116,10 @@ The conclusion of reproducing this figure is that this dataset should be run wit
 ### Discrepancies between my reproduction and the published result
 The biggest discrepancy is that because the data I used was more wide spread across 38 populations, the iterations with k = 38 saw a decrease in the number of shared loci as the M and n values increased. In the original figure and in k = 1 or "One-population" iteration, the number of shared loci increased as M and n values increased.
 
+I reproduced Figure 2a with my dataset. For this class, I was not able to put together the second dashed line- number of polymorphic loci- but I have run that analysis with a different dataset. I am very happy I chose this figure to reproduce for this class because it has made me really dive into how this program is analyzing the data. I would not have gone this in depth to understand parameter testing if I did not have to reproduce this figure. 
+
 ### What I learned
-I learned a lot about data management and how to organize iterative 
+A side objective that was not an intial goal but something I learned a lot about was data management and how to organize iterative files. I have produced many different runs of similar- but slightly different- output files, and the tips from this class and working on this project has really helped my file naming and organizing mentality. I hope to carry these strategies forward in my future work. 
 
 ### Difficulties
 There were two main difficulties I encountered with the process of reproducing this parameter testing method with my MS research data: 
