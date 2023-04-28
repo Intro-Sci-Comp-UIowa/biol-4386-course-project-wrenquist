@@ -1,5 +1,5 @@
 # BIOL:4386 Course Project - Reproducing *Deriving genotypes from RAD-seq short-read data using Stacks* with genomic data from moth *Schinia gracilenta*
-## Project Homework 3- April 6 2023
+## Final Project - April 28 2023
 
 ## Reference Paper for Figure
 Rochette, N., Catchen, J. Deriving genotypes from RAD-seq short-read data using Stacks. Nat Protoc 12, 2640–2659 (2017). https://doi.org/10.1038/nprot.2017.123
