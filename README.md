@@ -141,7 +141,7 @@ Hoberg, E. P., Alkire, N. L., Queiroz, A. D., & Jones, A. (2001). Out of Africa:
 
 Kim, K. S., & Sappington, T. W. (2013). Microsatellite Data Analysis for Population Genetics. In S. K. Kantartzi (Ed.), Microsatellites (Vol. 1006, pp. 271–295). Humana Press. https://doi.org/10.1007/978-1-62703-389-3_19
 
-López-Uribe, M. M., Cane, J. H., Minckley, R. L., & Danforth, B. N. (2016). Crop domestication facilitated rapid geographical expansion of a specialist pollinator, the squash bee Peponapis pruinosa. Proceedings of the Royal Society B: Biological Sciences, 283(1833), 20160443. https://doi.org/10.1098/rspb.2016.0443
+Lopez-Uribe, M. M., Cane, J. H., Minckley, R. L., & Danforth, B. N. (2016). Crop domestication facilitated rapid geographical expansion of a specialist pollinator, the squash bee Peponapis pruinosa. Proceedings of the Royal Society B: Biological Sciences, 283(1833), 20160443. https://doi.org/10.1098/rspb.2016.0443
 
 Moodley, Y., Brunelli, A., Ghirotto, S., Klyubin, A., Maady, A. S., Tyne, W., Muñoz-Ramirez, Z. Y., Zhou, Z., Manica, A., Linz, B., & Achtman, M. (2021). Helicobacter pylori ’s historical journey through Siberia and the Americas. Proceedings of the National Academy of Sciences, 118(25), e2015523118. https://doi.org/10.1073/pnas.2015523118
 
