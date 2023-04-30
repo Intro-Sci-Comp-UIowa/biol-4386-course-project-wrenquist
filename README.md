@@ -50,8 +50,8 @@ I chose parameter values by looking at the relationship between the number of lo
 I generated a graph that showed how the number of shared loci changed as M and n increased. The recommended choice of a value for M and n is the smallest number at which the number of shared loci plateaus, or stabilizes (Catchen et al 2017).
 
 **Understanding these parameters and testing which fit the data best are important because they:**
-**1. Make sure true genetic differences are recorded.**
-**2. Help throw out sequencing errors and missing data BEFORE data analysis.**
+1. **Make sure true genetic differences are recorded.**
+2. **Help throw out sequencing errors and missing data BEFORE data analysis.**
 
 ## Methods
 ### 1. Field Collections and Sample Preparation
