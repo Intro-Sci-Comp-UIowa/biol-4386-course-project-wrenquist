@@ -1,11 +1,11 @@
-#BIOL:4386 Course Project - Reproducing *Deriving genotypes from RAD-seq short-read data using Stacks* with genomic data from moth *Schinia gracilenta*
+# BIOL:4386 Course Project - Reproducing *Deriving genotypes from RAD-seq short-read data using Stacks* with genomic data from moth *Schinia gracilenta*
 
-## Final Project - April 28 2023
+Final Project - April 28 2023
 
 ## Reference Paper for Figure
 Rochette, N., Catchen, J. Deriving genotypes from RAD-seq short-read data using Stacks. Nat Protoc 12, 2640–2659 (2017). https://doi.org/10.1038/nprot.2017.123
 
-## Introduction - Specifically for Scientific Computing Semester Project
+## Introduction
 When one species depends on another for survival, the two species may have shared demographic histories to the extent that studying a symbiont might tell us about its host. When genetic capabilities are limited for studying the host directly, the study of a symbiont may provide a necessary workaround to ask broad questions regarding the biotic and abiotic factors that influence the evolutionary and demographic histories of organisms (Hoberg et al 2001; Kim and Sappington 2013; Lopez-Uribe et al 2016; Moodley et al 2021; Toups et al 2011).
 
 In the slender flower moth *(Schinia gracilenta)* and its host plant, sumpweed *(Iva annua)*, I utilize this strategy to address existing uncertainties about sumpweed as an early domesticated crop plant in North America. Sumpweed is thought to have been cultivated in North American ca. 5000 BC - AD 1700 and its range may have been expanded during this time, though few archaeobotanical records exist to support or reject a range expansion (Fritz 1993; Smith 1989; Zeanah 2017). I collected *Schinia gracilenta*, *Schinia rivulosa* and *Schinia thoreaui* feeding on *Iva annua*, *Iva frutescens*, *Ambrosia artemisiifolia* and *Ambrosia trifida* across the eastern half of what is now the USA. I used Restriction-site Associated DNA sequencing (RAD-seq) to test whether the *S. gracilenta* genomes contain signatures of a possible human-mediated *I. annua* range expansion. I generated a phylogenetic tree of the collection using the RAD-seq data and subsampled collections to make a secondary mitochondrial COI gene tree. Using population genetics methodologies, I determined the population structure of all Schinia collections from all host plants. Then, in a restricted analysis that includes only *S. gracilenta*, I, again, looked at the population structure in addition to several population genetics metrics of population diversity.
@@ -109,8 +109,9 @@ Relationship between M and n parameter values for the Site specific iteration. A
 The conclusion of reproducing this figure is that this dataset should be run within Stacks with the parameters m = 3, M = 6, n = 6 for optimized data filtering. The way that the data is grouped- whether individuals are organized by collection site or are kept as a monopopulation- effects how Stacks creates de novo loci and compares the sequenced individuals.
 
 **Understanding these parameters and testing which fit the data best are important because they:**
-**1. Make sure true genetic differences are recorded.**
-**2. Help throw out sequencing errors and missing data BEFORE data analysis.**
+
+1. ** Make sure true genetic differences are recorded.**
+2. ** Help throw out sequencing errors and missing data BEFORE data analysis.**
 
 ## Reflection
 
