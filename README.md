@@ -110,8 +110,8 @@ The conclusion of reproducing this figure is that this dataset should be run wit
 
 **Understanding these parameters and testing which fit the data best are important because they:**
 
-1. ** Make sure true genetic differences are recorded.**
-2. ** Help throw out sequencing errors and missing data BEFORE data analysis.**
+1. **Make sure true genetic differences are recorded.**
+2. **Help throw out sequencing errors and missing data BEFORE data analysis.**
 
 ## Reflection
 
